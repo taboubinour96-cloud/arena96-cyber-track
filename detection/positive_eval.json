@@ -1,0 +1,59 @@
+{
+  "blocks_tested": 701,
+  "blocks_matched": 679,
+  "block_accuracy_pct": 96.9,
+  "rules_covered": 295,
+  "rules_with_some_match": 287,
+  "failures_sample": [
+    [
+      "proc_creation_win_autorun_registry_modified_via_wmic.yml",
+      "selection_execution_cmd",
+      "{\"EventID\": 1, \"CommandLine\": \"prerpre\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Runp"
+    ],
+    [
+      "proc_creation_win_cloudflared_tunnel_cleanup.yml",
+      "selection",
+      "{\"EventID\": 1, \"CommandLine\": \"pre pre-config posttunnel post|precleanup post\"}"
+    ],
+    [
+      "proc_creation_win_cloudflared_tunnel_run.yml",
+      "selection",
+      "{\"EventID\": 1, \"CommandLine\": \"pre pre-config posttunnel post|pre run post\"}"
+    ],
+    [
+      "proc_creation_win_cmd_copy_dmp_from_share.yml",
+      "selection_cli",
+      "{\"EventID\": 1, \"CommandLine\": \"precpre.dmppostopy post|pre \\\\\\\\\\\\\\\\post\"}"
+    ],
+    [
+      "proc_creation_win_cmd_curl_download_exec_combo.yml",
+      "selection",
+      "{\"EventID\": 1, \"CommandLine\": \"pre precurl post|prehttppost|pre-opost|pre&post-c post\"}"
+    ],
+    [
+      "proc_creation_win_cmd_dir_execution.yml",
+      "selection_cli",
+      "{\"EventID\": 1, \"CommandLine\": \"pre-predir postspost\"}"
+    ],
+    [
+      "proc_creation_win_cmd_redirection_susp_folder.yml",
+      "selection_cli_2",
+      "{\"EventID\": 1, \"CommandLine\": \"pre preC:\\\\Users\\\\post|pre\\\\AppData\\\\Local\\\\post>post\"}"
+    ],
+    [
+      "proc_creation_win_discovery_via_reg_queries.yml",
+      "selection_cmd_reg",
+      "{\"EventID\": 1, \"Image\": \"prefix\\\\reg.exe\", \"CommandLine\": \"preqpre-vpostuerypost\"}"
+    ],
+    [
+      "proc_creation_win_dump64_defender_av_bypass_rename.yml",
+      "selection_dump",
+      "{\"EventID\": 1, \"Image\": \"prepre\\\\Microsoft Visual Studio\\\\postpostC:\\\\Program Filessuffixp"
+    ],
+    [
+      "proc_creation_win_explorer_break_process_tree.yml",
+      "selection_root",
+      "{\"EventID\": 1, \"CommandLine\": \"preepre /root,postxplorer.exepost\"}"
+    ]
+  ]
+}

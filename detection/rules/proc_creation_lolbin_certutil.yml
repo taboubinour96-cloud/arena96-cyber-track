@@ -1,0 +1,19 @@
+title: Certutil Used to Download Remote Payload
+id: 96d1f0a1-0003-4c1e-9a01-arena960003
+status: test
+description: certutil يُستخدم كوكيل تنزيل (LOLBin) — T1105
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_proc:
+    Image|endswith: '\certutil.exe'
+  selection_flags:
+    CommandLine|contains|all:
+      - '-urlcache'
+      - '-f'
+  condition: selection_proc and selection_flags
+level: medium
+tags:
+  - attack.command_and_control
+  - attack.t1105

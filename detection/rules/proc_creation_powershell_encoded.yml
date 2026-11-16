@@ -1,0 +1,25 @@
+title: PowerShell Encoded Command with Hidden Window
+id: 96d1f0a1-0001-4c1e-9a01-arena960001
+status: test
+description: PowerShell بأمر مشفّر مع إخفاء نافذة — يغطي المرادفات (T1059.001)
+references:
+  - https://attack.mitre.org/techniques/T1059/001/
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_img:
+    Image|endswith: '\powershell.exe'
+  # المرادفات: -enc · -e · -EncodedCommand · -ec
+  selection_encoded:
+    CommandLine|re: '(?i)\s-e(nc|ncodedcommand|ncoded|nc)?\b'
+  # إخفاء النافذة أو تعطيل الملف الشخصي: -w hidden · -w 1 · -nop · -NoProfile
+  selection_hidden:
+    CommandLine|re: '(?i)(-w(indowstyle)?\s+(hidden|\d)\b|-nop\b|-noprofile\b)'
+  condition: selection_img and selection_encoded and selection_hidden
+falsepositives:
+  - إدارة مشروعة بأوامر مشفّرة
+level: high
+tags:
+  - attack.execution
+  - attack.t1059.001

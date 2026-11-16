@@ -1,0 +1,21 @@
+title: Abnormally Long High-Entropy DNS Query Name
+id: 96d1f0a1-0004-4c1e-9a01-arena960004
+status: test
+description: >
+  استعلام DNS طويل وعالي التنوّع — مؤشر تسريب بيانات عبر النفق (T1048).
+  يشترط تنوّعاً في المحارف لا الطول وحده، لأن سجلات TXT/SPF المشروعة طويلة أيضاً.
+logsource:
+  category: dns_query
+detection:
+  selection_len:
+    QueryName|re: '^[A-Za-z0-9+/=_-]{60,}\.'
+  selection_b64chars:
+    QueryName|re: '[A-Za-z0-9+/=]{40,}'
+  # يستبعد المحرف الواحد المكرّر (aaaa…aaaa) — وهو الشكل الشائع للأسماء الآلية
+  filter_repeated:
+    QueryName|re: '^(.)\1{59,}'
+  condition: selection_len and selection_b64chars and not filter_repeated
+level: medium
+tags:
+  - attack.exfiltration
+  - attack.t1048

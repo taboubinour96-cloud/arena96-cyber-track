@@ -1,0 +1,22 @@
+title: Office Process Spawned From User-Writable Path
+id: 96d1f0a1-0002-4c1e-9a01-arena960002
+status: test
+description: مستند Office يعمل من مسار قابل للكتابة (تنفيذ ماكرو / تصيّد) (T1566)
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_office:
+    Image|endswith:
+      - '\WINWORD.EXE'
+      - '\EXCEL.EXE'
+  filter_userpath:
+    ParentImage|contains:
+      - '\Downloads\'
+      - '\AppData\Local\Temp\'
+      - '\Users\Public\'
+  condition: selection_office and filter_userpath
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1566

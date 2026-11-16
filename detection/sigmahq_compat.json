@@ -1,0 +1,9 @@
+{
+  "rules": 300,
+  "parsed": 300,
+  "lint_ok": 300,
+  "executed": 300,
+  "rejected": 0,
+  "exec_rate_pct": 100.0,
+  "reject_reasons": {}
+}

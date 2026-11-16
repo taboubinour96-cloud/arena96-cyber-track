@@ -1,0 +1,23 @@
+title: Repeated Failed Logon Against Admin Account
+id: 96d1f0a1-0005-4c1e-9a01-arena960005
+status: test
+description: >
+  محاولة دخول فاشلة على حساب إداري (T1110).
+  ملاحظة صريحة: هذا المحرّك يقيّم حدثاً واحداً، فلا يستطيع عدّ التكرار.
+  القاعدة الحقيقية تحتاج aggregation (count > N by TargetUserName)، وهي **غير مدعومة** هنا
+  وتُرفض بوضوح. لذلك تُسمّى القاعدة كما هي: إنذار أولي، لا كشف تخمين.
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4625
+  filter_admin_account:
+    TargetUserName|endswith:
+      - 'admin'
+      - 'administrator'
+  condition: selection and filter_admin_account
+level: low
+tags:
+  - attack.credential_access
+  - attack.t1110
