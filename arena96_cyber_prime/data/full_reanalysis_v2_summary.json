@@ -1,0 +1,136 @@
+{
+  "version": "2.0.0-cyber-prime",
+  "preserved_original_4_pillars": {
+    "marketing_skills": 53,
+    "marketing_clis": 66,
+    "business_hq_version": 19,
+    "market_mirofish_v2_final_support_percent": 79.2
+  },
+  "new_cyber_specialized_4_pillars": {
+    "cyber_skills_count": 16,
+    "cyber_clis_count": 8,
+    "cyber_council_mandates": [
+      "ترقية cybersec_branch إلى الإصدار v2.0 بدعم BaseHTTPRequestHandler، وكشف ZipSlip/SSRF/Timing-Attack، وفحص مهارات AI ضد Trojan-Source وحقن البرومبت، وفحص GitHub Actions، وربط MITRE ATT&CK وتوليد CycloneDX SBOM.",
+      "ترقية خادم القيادة hq_server.py بسقف حجم الطلبات (MAX_BODY_BYTES = 64KB)، ومحدد معدل الطلبات (Rate Limiter)، وترويسات الحماية القياسية.",
+      "اعتماد سلسلة التجزئة التشفيرية SHA-256 في سجل عمليات Cyber-SOC HQ لإثبات عدم القابلية للعبث."
+    ],
+    "cyber_soc_ledger_integrity": {
+      "valid": true,
+      "entries_checked": 8,
+      "head_sha256": "0f2e8b2f2a548aa2a0eaf8ff2b62bcccd3e2e61ddd2a69ff3833e17ce53a53f9"
+    },
+    "secops_connectors_count": 20,
+    "cyclonedx_sbom": {
+      "path": "/home/user/arena96_cyber_prime/data/arena96_cyclonedx_sbom.json",
+      "components_count": 25,
+      "spec": "CycloneDX 1.5"
+    },
+    "excel_matrix_path": "/home/user/arena96_cyber_prime/data/مصفوفة_الأمن_والتطوير_الجيل_الثاني_أرينا_96.xlsx",
+    "cyberswarm_wargame_report": {
+      "wargame_id": "wargame-26158827",
+      "architecture_name": "منظومة أرينا 96 (مقارنة الجيل الأول v1.0 مقابل الجيل الثاني المحصّن v2.0)",
+      "pre_upgrade_breach_prob_percent": 47.0,
+      "post_upgrade_breach_prob_percent": 8.6,
+      "risk_reduction_points": 38.4,
+      "post_upgrade_resilience_percent": 91.4,
+      "mttd_improved_from_to_min": "8.9 د ← 4.2 د",
+      "mttr_improved_from_to_min": "23.0 د ← 11.6 د",
+      "executive_verdict_ar": "أثبت التوأم الرقمي (CyberSwarm-96) عبر محاكاة 24 وكيلاً هجومياً ودفاعياً أن ترقيات الجيل الثاني v2.0 خفضت احتمالية نجاح الاختراق من 47.0% إلى 8.6% (تحسن صافي قدره 38.4 نقطة مئوية، ومرونة دفاعية 91.4%)، وقلصت زمن الاكتشاف MTTD إلى 4.2 دقيقة فقط."
+    },
+    "red_team_interrogation": {
+      "wargame_id": "wargame-26158827",
+      "persona_id": 1,
+      "name_ar": "مهاجم محاكى — تسميم مهارات AI ومحارف Bidi الخفية (#1)",
+      "team": "offensive_probe",
+      "ai_lens": "Claude-Formal-Verifier",
+      "answer_ar": "أنا «مهاجم محاكى — تسميم مهارات AI ومحارف Bidi الخفية (#1)» (أعمل بعدسة Claude-Formal-Verifier على تقنية T1195.002). في الجولات الأولى قبل الترقية كان هناك أمل في استغلال غياب فحص محارف Bidi أو سقف حجم الطلبات، لكن بعد تفعيل الجيل الثاني v2.0 هبطت فعالية هجومي إلى 10.7% وأُغلق المسار تماماً."
+    },
+    "sovereign_gate_card_id": "sov-fc91d75e"
+  },
+  "full_reanalysis_audits_v2": {
+    "cybersec_branch_v2": {
+      "scanned_files": 12,
+      "discovered_routes": 0,
+      "protected_routes": 0,
+      "active_findings": 0,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      }
+    },
+    "arena96_os_v2": {
+      "scanned_files": 12,
+      "discovered_routes": 2,
+      "protected_routes": 1,
+      "active_findings": 0,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      }
+    },
+    "arena96_cyber_prime": {
+      "scanned_files": 10,
+      "discovered_routes": 0,
+      "protected_routes": 0,
+      "active_findings": 0,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      }
+    },
+    "skills_library_all_69_skills": {
+      "scanned_files": 260,
+      "discovered_routes": 0,
+      "protected_routes": 0,
+      "active_findings": 0,
+      "severity_counts": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 0,
+        "LOW": 0,
+        "INFO": 0
+      }
+    }
+  },
+  "comparison_rows": [
+    {
+      "axis": "1. مكتبة المهارات ومجلس المستشارين",
+      "v1": "53 مهارة تسويق عامة + مجلس 12 مسوقاً (marketingskills)",
+      "v2": "إبقاء الـ53 مهارة + إضافة 16 مهارة سيبرانية متخصصة (cyberskills_96) + 8 أدوات CLI أمنية + مجلس حكماء الأمن الـ12 مع الفريق الأحمر المعارض",
+      "impact": "جمع قوة النمو التجاري مع التفوق الهندسي السيبراني المتخصص (69 مهارة نشطة)"
+    },
+    {
+      "axis": "2. مقر القيادة والحوكمة (HQ)",
+      "v1": "لوحة JSON بقفل if_version للمهام العامة وخانة ينتظرك",
+      "v2": "إبقاء المقر العام + بناء Cyber-SOC HQ بسلسلة تجزئة SHA-256 غير قابلة للعبث ومؤشر DEFCON ومؤقتات SLA (P0–P3)",
+      "impact": "سلامة جنائية رياضية للسجلات واستجابة فورية مصنفة حسب المخاطر"
+    },
+    {
+      "axis": "3. بوابة الموصلات وسلاسل التوريد",
+      "v1": "20 موصل أعمال عام + تصدير Excel تشغيلي",
+      "v2": "إبقاء الـ20 موصلاً + إضافة 20 موصل SecOps متخصص مع توليد CycloneDX 1.5 SBOM وفحص ملفات SKILL.md ضد محارف Bidi الخفية",
+      "impact": "حماية كاملة لسلسلة توريد البرمجيات ومهارات الوكلاء (OWASP LLM01/07)"
+    },
+    {
+      "axis": "4. محرك السرب والتوأم الرقمي",
+      "v1": "MiroFish لمحاكاة الرأي العام وتفاعل السوق",
+      "v2": "إبقاء MiroFish السوقي + ابتكار CyberSwarm-96 لمحاكاة الاشتباك الهجومي الدفاعي وحساب انخفاض احتمالية الاختراق وMTTD/MTTR",
+      "impact": "اختبار القرارات تجارياً وأمنياً معاً في عالمين رقميين متوازيين قبل التنفيذ"
+    },
+    {
+      "axis": "5. ترقية محرك الفحص cybersec_branch والخادم الحي",
+      "v1": "فحص FastAPI/Flask/Express بدون BaseHTTP وبدون سقف حجم الطلبات",
+      "v2": "ترقية إلى v2.0: كشف BaseHTTPRequestHandler وZipSlip وSSRF والمقارنة غير ثابتة الزمن وpull_request_target + تحصين الخادم بحد 64KB ومحدد معدل وترويسات أمان",
+      "impact": "إغلاق 6 فجوات معمارية دقيقة وصفر ثغرات في الفحص الذاتي الشامل"
+    }
+  ]
+}

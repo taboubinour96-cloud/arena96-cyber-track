@@ -1,0 +1,231 @@
+{
+  "version": 10,
+  "hq_title_ar": "مركز القيادة السيبراني المتطور — أرينا 96 (Cyber-Prime HQ)",
+  "owner": "نور",
+  "ciso_ceo": "أرينا 96",
+  "defcon_level": 4,
+  "updated_at_12h": "12:25 م",
+  "cells": [
+    {
+      "id": "ciso-arena96",
+      "name_ar": "أرينا 96 — المدير التنفيذي وقائد الأمن (CEO/CISO)",
+      "status": "يشتغل",
+      "current_task": "قيادة المؤسسة السيبرانية السيادية بالرتبة القصوى (المستوى 10 — Principal Fellow)",
+      "level": 10,
+      "rank_ar": "زميل أمن سيبراني أعلى (Principal Fellow)",
+      "xp": 1650,
+      "updated_at_12h": "10:29 ص"
+    },
+    {
+      "id": "cell-ast-hunter",
+      "name_ar": "خلية صيد الثغرات البرمجية (AST SAST v2.0)",
+      "status": "فاضي",
+      "current_task": "مراقبة مستمرة",
+      "level": 6,
+      "rank_ar": "قائد خلية أمنية",
+      "xp": 590,
+      "updated_at_12h": "10:30 ص"
+    },
+    {
+      "id": "cell-supply-ai-guard",
+      "name_ar": "خلية حراسة سلاسل التوريد ومهارات AI",
+      "status": "فاضي",
+      "current_task": "مراقبة مستمرة",
+      "level": 6,
+      "rank_ar": "قائد خلية أمنية",
+      "xp": 550,
+      "updated_at_12h": "10:30 ص"
+    },
+    {
+      "id": "cell-detection-sigma",
+      "name_ar": "خلية هندسة الاكتشاف السلوكي (Sigma/SIEM)",
+      "status": "فاضي",
+      "current_task": "تطوير قواعد الكشف السلوكي وتقليل الإنذارات الكاذبة",
+      "level": 5,
+      "rank_ar": "مهندس أمن تطبيقات أول",
+      "xp": 480,
+      "updated_at_12h": "10:29 ص"
+    },
+    {
+      "id": "cell-dfir-forensics",
+      "name_ar": "خلية التحقيق الجنائي وسلسلة الحيازة",
+      "status": "فاضي",
+      "current_task": "توثيق الأدلة التشفيرية وفحص سلامة السجلات",
+      "level": 5,
+      "rank_ar": "مهندس أمن تطبيقات أول",
+      "xp": 490,
+      "updated_at_12h": "10:29 ص"
+    },
+    {
+      "id": "cell-cyberswarm-wargame",
+      "name_ar": "خلية التوأم الرقمي والمحاكاة القتالية (CyberSwarm-96)",
+      "status": "فاضي",
+      "current_task": "مراقبة مستمرة",
+      "level": 6,
+      "rank_ar": "قائد خلية أمنية",
+      "xp": 580,
+      "updated_at_12h": "10:30 ص"
+    },
+    {
+      "id": "cell-patch-hardening",
+      "name_ar": "خلية هندسة الترقيعات والتصلب المعماري",
+      "status": "فاضي",
+      "current_task": "بناء واختبار ترقيعات الجيل الثاني v2.0",
+      "level": 6,
+      "rank_ar": "قائد خلية أمنية",
+      "xp": 530,
+      "updated_at_12h": "10:29 ص"
+    }
+  ],
+  "findings_sla_queue": [],
+  "sovereign_needs": [
+    {
+      "id": "sov-fc91d75e",
+      "cell_id": "cell-patch-hardening",
+      "sla_tier": "P1",
+      "title_ar": "اعتماد الجيل الثاني v2.0 (8 منظومات مزدوجة: 4 أعمال + 4 سيبرانية متخصصة) كنواة رسمية للمشروع",
+      "details_ar": "تم تطبيق الترقيات محلياً واجتياز جميع الاختبارات؛ بانتظار توجيه نور لتحديد الهدف التطبيقي القادم.",
+      "status": "ينتظر التفويض السيادي من نور",
+      "created_at_12h": "10:30 ص"
+    },
+    {
+      "id": "sov-ad18992c",
+      "cell_id": "cell-patch-hardening",
+      "sla_tier": "P1",
+      "title_ar": "اعتماد الجيل الثاني v2.0 (8 منظومات مزدوجة: 4 أعمال + 4 سيبرانية متخصصة) كنواة رسمية للمشروع",
+      "details_ar": "تم تطبيق الترقيات محلياً واجتياز جميع الاختبارات؛ بانتظار توجيه نور لتحديد الهدف التطبيقي القادم.",
+      "status": "ينتظر التفويض السيادي من نور",
+      "created_at_12h": "10:29 ص"
+    }
+  ],
+  "hash_chained_ledger": [
+    {
+      "seq": 1,
+      "event_type": "GENESIS",
+      "actor": "ciso-arena96",
+      "summary_ar": "تفعيل مركز القيادة السيبراني المؤتمت (Cyber-SOC HQ) بسلسلة تجزئة SHA-256 غير قابلة للعبث.",
+      "timestamp_iso": "2026-11-04T10:29:58.505048+01:00",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "entry_hash": "8061aac6d4241c5651c2d71b7749ffad83581065ab9d42eceae689fa56d26cf2"
+    },
+    {
+      "seq": 2,
+      "event_type": "CELL_REPORT",
+      "actor": "cell-ast-hunter",
+      "summary_ar": "إعادة فحص شامل بالإصدار v2.0 لعدد 290 ملفاً (شاملاً 69 ملف SKILL.md وخوادم HTTP) — النتيجة: 0 ثغرات نشطة.",
+      "timestamp_iso": "2026-11-04T10:29:59.032626+01:00",
+      "prev_hash": "8061aac6d4241c5651c2d71b7749ffad83581065ab9d42eceae689fa56d26cf2",
+      "entry_hash": "03b2ada890c2bbf4b0df53dea35e7ace0aa4484219fc8397074651e27ecdf9da"
+    },
+    {
+      "seq": 3,
+      "event_type": "CELL_REPORT",
+      "actor": "cell-supply-ai-guard",
+      "summary_ar": "توليد قائمة مكونات البرمجيات CycloneDX 1.5 (25 مكوّن موثق بـ SHA-256) وتصدير مصفوفة المقارنة بصيغة Excel.",
+      "timestamp_iso": "2026-11-04T10:29:59.042067+01:00",
+      "prev_hash": "03b2ada890c2bbf4b0df53dea35e7ace0aa4484219fc8397074651e27ecdf9da",
+      "entry_hash": "a01feff7b0c57c21525459bdf4262c970acd4a1e4f4118de19f8b473a432233c"
+    },
+    {
+      "seq": 4,
+      "event_type": "CELL_REPORT",
+      "actor": "cell-cyberswarm-wargame",
+      "summary_ar": "إتمام المناورة السيبرانية (wargame-b129a353): انخفضت احتمالية الاختراق من 47.0% إلى 8.6% (مرونة دفاعية 91.4%).",
+      "timestamp_iso": "2026-11-04T10:29:59.043569+01:00",
+      "prev_hash": "a01feff7b0c57c21525459bdf4262c970acd4a1e4f4118de19f8b473a432233c",
+      "entry_hash": "3bca66c9d3e98a89792c257f193804e6b16d4000db746ec93b912e5cc95c6104"
+    },
+    {
+      "seq": 5,
+      "event_type": "SOVEREIGN_GATE",
+      "actor": "cell-patch-hardening",
+      "summary_ar": "اعتماد الجيل الثاني v2.0 (8 منظومات مزدوجة: 4 أعمال + 4 سيبرانية متخصصة) كنواة رسمية للمشروع",
+      "timestamp_iso": "2026-11-04T10:29:59.046780+01:00",
+      "prev_hash": "3bca66c9d3e98a89792c257f193804e6b16d4000db746ec93b912e5cc95c6104",
+      "entry_hash": "e2eb67723af9991a43e0dd770860c46ca31464a507d24c87b93e2e586d6b52ea"
+    },
+    {
+      "seq": 6,
+      "event_type": "CELL_REPORT",
+      "actor": "cell-ast-hunter",
+      "summary_ar": "إعادة فحص شامل بالإصدار v2.0 لعدد 294 ملفاً (شاملاً 69 ملف SKILL.md وخوادم HTTP) — النتيجة: 0 ثغرات نشطة.",
+      "timestamp_iso": "2026-11-04T10:30:26.259481+01:00",
+      "prev_hash": "e2eb67723af9991a43e0dd770860c46ca31464a507d24c87b93e2e586d6b52ea",
+      "entry_hash": "0b14faa9fe48df03aeab103b93a88655002d559b64382a6c9ef2794b39f675a5"
+    },
+    {
+      "seq": 7,
+      "event_type": "CELL_REPORT",
+      "actor": "cell-supply-ai-guard",
+      "summary_ar": "توليد قائمة مكونات البرمجيات CycloneDX 1.5 (25 مكوّن موثق بـ SHA-256) وتصدير مصفوفة المقارنة بصيغة Excel.",
+      "timestamp_iso": "2026-11-04T10:30:26.269549+01:00",
+      "prev_hash": "0b14faa9fe48df03aeab103b93a88655002d559b64382a6c9ef2794b39f675a5",
+      "entry_hash": "43fecc77ffd84beca3b42c07c9dea1e863f22c0af0ce459231e694f4c1d4aa32"
+    },
+    {
+      "seq": 8,
+      "event_type": "CELL_REPORT",
+      "actor": "cell-cyberswarm-wargame",
+      "summary_ar": "إتمام المناورة السيبرانية (wargame-26158827): انخفضت احتمالية الاختراق من 47.0% إلى 8.6% (مرونة دفاعية 91.4%).",
+      "timestamp_iso": "2026-11-04T10:30:26.271186+01:00",
+      "prev_hash": "43fecc77ffd84beca3b42c07c9dea1e863f22c0af0ce459231e694f4c1d4aa32",
+      "entry_hash": "0f2e8b2f2a548aa2a0eaf8ff2b62bcccd3e2e61ddd2a69ff3833e17ce53a53f9"
+    },
+    {
+      "seq": 9,
+      "event_type": "SOVEREIGN_GATE",
+      "actor": "cell-patch-hardening",
+      "summary_ar": "اعتماد الجيل الثاني v2.0 (8 منظومات مزدوجة: 4 أعمال + 4 سيبرانية متخصصة) كنواة رسمية للمشروع",
+      "timestamp_iso": "2026-11-04T10:30:26.274469+01:00",
+      "prev_hash": "0f2e8b2f2a548aa2a0eaf8ff2b62bcccd3e2e61ddd2a69ff3833e17ce53a53f9",
+      "entry_hash": "1057d38e6deb9d84d8c9fb5d76d52638cd7600d305f9a542e2922ab5508cb30e"
+    },
+    {
+      "seq": 10,
+      "event_type": "FELLOWSHIP_GRADUATION",
+      "actor": "ciso-arena96",
+      "summary_ar": "إتمام المراحل العليا 7–10 والوصول إلى المستوى 10 (1650 XP) ونجاح 29/29 اختباراً.",
+      "timestamp_iso": "2026-11-04T12:25:17.577673+01:00",
+      "prev_hash": "1057d38e6deb9d84d8c9fb5d76d52638cd7600d305f9a542e2922ab5508cb30e",
+      "entry_hash": "5edb8a0989a5b1fa4749d0051104a2f6298ee3e49de2dc070ac50a53d1af857f"
+    }
+  ],
+  "five_line_reports": [
+    {
+      "id": "crep-efb69347",
+      "cell_id": "cell-cyberswarm-wargame",
+      "formatted_5line": "تم: إتمام المناورة السيبرانية (wargame-26158827): انخفضت احتمالية الاختراق من 47.0% إلى 8.6% (مرونة دفاعية 91.4%).\nالملفات / الروابط: /home/user/arena96_cyber_prime/data/wargames/wargame-26158827/wargame_state.json\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة مستمرة",
+      "time_12h": "10:30 ص"
+    },
+    {
+      "id": "crep-f472683f",
+      "cell_id": "cell-supply-ai-guard",
+      "formatted_5line": "تم: توليد قائمة مكونات البرمجيات CycloneDX 1.5 (25 مكوّن موثق بـ SHA-256) وتصدير مصفوفة المقارنة بصيغة Excel.\nالملفات / الروابط: /home/user/arena96_cyber_prime/data/arena96_cyclonedx_sbom.json , /home/user/arena96_cyber_prime/data/مصفوفة_الأمن_والتطوير_الجيل_الثاني_أرينا_96.xlsx\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة مستمرة",
+      "time_12h": "10:30 ص"
+    },
+    {
+      "id": "crep-9023b2de",
+      "cell_id": "cell-ast-hunter",
+      "formatted_5line": "تم: إعادة فحص شامل بالإصدار v2.0 لعدد 294 ملفاً (شاملاً 69 ملف SKILL.md وخوادم HTTP) — النتيجة: 0 ثغرات نشطة.\nالملفات / الروابط: /home/user/arena96_cyber_prime/data/full_reanalysis_v2_summary.json\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة مستمرة",
+      "time_12h": "10:30 ص"
+    },
+    {
+      "id": "crep-c54cb7f5",
+      "cell_id": "cell-cyberswarm-wargame",
+      "formatted_5line": "تم: إتمام المناورة السيبرانية (wargame-b129a353): انخفضت احتمالية الاختراق من 47.0% إلى 8.6% (مرونة دفاعية 91.4%).\nالملفات / الروابط: /home/user/arena96_cyber_prime/data/wargames/wargame-b129a353/wargame_state.json\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة مستمرة",
+      "time_12h": "10:29 ص"
+    },
+    {
+      "id": "crep-a4355899",
+      "cell_id": "cell-supply-ai-guard",
+      "formatted_5line": "تم: توليد قائمة مكونات البرمجيات CycloneDX 1.5 (25 مكوّن موثق بـ SHA-256) وتصدير مصفوفة المقارنة بصيغة Excel.\nالملفات / الروابط: /home/user/arena96_cyber_prime/data/arena96_cyclonedx_sbom.json , /home/user/arena96_cyber_prime/data/مصفوفة_الأمن_والتطوير_الجيل_الثاني_أرينا_96.xlsx\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة مستمرة",
+      "time_12h": "10:29 ص"
+    },
+    {
+      "id": "crep-547f21ee",
+      "cell_id": "cell-ast-hunter",
+      "formatted_5line": "تم: إعادة فحص شامل بالإصدار v2.0 لعدد 290 ملفاً (شاملاً 69 ملف SKILL.md وخوادم HTTP) — النتيجة: 0 ثغرات نشطة.\nالملفات / الروابط: /home/user/arena96_cyber_prime/data/full_reanalysis_v2_summary.json\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة مستمرة",
+      "time_12h": "10:29 ص"
+    }
+  ]
+}

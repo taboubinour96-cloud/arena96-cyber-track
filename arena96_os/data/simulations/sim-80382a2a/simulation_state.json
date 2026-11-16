@@ -1,0 +1,2927 @@
+{
+  "simulation_id": "sim-80382a2a",
+  "created_at": "2026-11-04T09:30:26.272058+00:00",
+  "prediction_goal_ar": "قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+  "seed_text": "منظومة أرينا 96 v2.0 تجمع 4 أنظمة أعمال وتسويق مع 4 أنظمة دفاع وتوأم رقمي سيبراني حصرية (69 مهارة + 40 موصلاً + محركي سرب)",
+  "ontology": {
+    "scenario_domain": "cyber_saas_launch",
+    "seed_excerpt": "منظومة أرينا 96 v2.0 تجمع 4 أنظمة أعمال وتسويق مع 4 أنظمة دفاع وتوأم رقمي سيبراني حصرية (69 مهارة + 40 موصلاً + محركي سرب)",
+    "entity_types": [
+      {
+        "name": "StartupCto",
+        "description_ar": "المديرون التقنيون في الشركات الناشئة الباحثون عن فحص أمني دقيق وأتمتة"
+      },
+      {
+        "name": "EnterpriseCiso",
+        "description_ar": "مديرو أمن المعلومات المتشككون في أدوات الذكاء الاصطناعي غير المحكومة"
+      },
+      {
+        "name": "SoloFounder",
+        "description_ar": "مؤسسو الشركات الرقمية الراغبون في إدارة التسويق والعمليات من لوحة واحدة"
+      },
+      {
+        "name": "AppSecEngineer",
+        "description_ar": "مهندسو أمن التطبيقات الذين يختبرون دقة تقارير SARIF ونسبة الإنذارات الكاذبة"
+      },
+      {
+        "name": "TechMediaJournalist",
+        "description_ar": "الصحفيون وصناع المحتوى التقني في المنطقة العربية والعالم"
+      },
+      {
+        "name": "CompetitorVendor",
+        "description_ar": "منافسو أدوات الفحص التقليدية أو وكالات التسويق التقليدية"
+      }
+    ],
+    "edge_types": [
+      {
+        "name": "EVALUATES_PRODUCT",
+        "canonical": "EVALUATES_PRODUCT"
+      },
+      {
+        "name": "ENDORSES_PUBLICLY",
+        "canonical": "ENDORSES_PUBLICLY"
+      },
+      {
+        "name": "CHALLENGES_CLAIM",
+        "canonical": "CHALLENGES_CLAIM"
+      },
+      {
+        "name": "INFLUENCES_PEER",
+        "canonical": "INFLUENCES_PEER"
+      },
+      {
+        "name": "REQUESTS_PROOF",
+        "canonical": "REQUESTS_PROOF"
+      },
+      {
+        "name": "ADOPTS_PLATFORM",
+        "canonical": "ADOPTS_PLATFORM"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "uuid": "node-arena96-platform",
+      "name": "Arena96_CyberSwarm_HQ",
+      "entity_type": "ProductInitiative",
+      "summary_ar": "قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+      "attributes": {
+        "seed": "منظومة أرينا 96 v2.0 تجمع 4 أنظمة أعمال وتسويق مع 4 أنظمة دفاع وتوأم رقمي سيبراني حصرية (69 مهارة + 40 موصلاً + محركي سرب)"
+      }
+    },
+    {
+      "uuid": "node-actor-01",
+      "name": "م. طارق — مدير تقني لشركة تقنية مالية",
+      "entity_type": "StartupCTO",
+      "summary_ar": "م. طارق — مدير تقني لشركة تقنية مالية — عدسة التفكير: تحليلي صارم يركز على سلامة الكود والبراهين الموثقة",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.3,
+        "cognitive_lens": "Claude-Analytical-Security"
+      }
+    },
+    {
+      "uuid": "node-actor-02",
+      "name": "د. سلمى — مديرة أمن معلومات في قطاع بنكي",
+      "entity_type": "EnterpriseCISO",
+      "summary_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي — عدسة التفكير: استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": -0.31,
+        "cognitive_lens": "GPT-Strategic-Growth"
+      }
+    },
+    {
+      "uuid": "node-actor-03",
+      "name": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "summary_ar": "ريان — مؤسس مشروع برمجي سحابي — عدسة التفكير: معماري يركز على التكامل السحابي وقابلية التوسع والبيانات",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.48,
+        "cognitive_lens": "Gemini-Systems-Scale"
+      }
+    },
+    {
+      "uuid": "node-actor-04",
+      "name": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "summary_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض — عدسة التفكير: ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": 0.01,
+        "cognitive_lens": "Grok-Contrarian-Pulse"
+      }
+    },
+    {
+      "uuid": "node-actor-05",
+      "name": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي",
+      "entity_type": "TechMediaJournalist",
+      "summary_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي — عدسة التفكير: تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": 0.08,
+        "cognitive_lens": "Qwen-Pragmatic-Ops"
+      }
+    },
+    {
+      "uuid": "node-actor-06",
+      "name": "فهد — مدير مبيعات أداة تقليدية منافسة",
+      "entity_type": "CompetitorVendor",
+      "summary_ar": "فهد — مدير مبيعات أداة تقليدية منافسة — عدسة التفكير: مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة",
+      "attributes": {
+        "initial_stance": "opposing",
+        "initial_sentiment": -0.77,
+        "cognitive_lens": "Kimi-Deep-Context-Auditor"
+      }
+    },
+    {
+      "uuid": "node-actor-07",
+      "name": "م. طارق — مدير تقني لشركة تقنية مالية (#2)",
+      "entity_type": "StartupCTO",
+      "summary_ar": "م. طارق — مدير تقني لشركة تقنية مالية (#2) — عدسة التفكير: تحليلي صارم يركز على سلامة الكود والبراهين الموثقة",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.52,
+        "cognitive_lens": "Claude-Analytical-Security"
+      }
+    },
+    {
+      "uuid": "node-actor-08",
+      "name": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "summary_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2) — عدسة التفكير: استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": -0.15,
+        "cognitive_lens": "GPT-Strategic-Growth"
+      }
+    },
+    {
+      "uuid": "node-actor-09",
+      "name": "ريان — مؤسس مشروع برمجي سحابي (#2)",
+      "entity_type": "SoloFounder",
+      "summary_ar": "ريان — مؤسس مشروع برمجي سحابي (#2) — عدسة التفكير: معماري يركز على التكامل السحابي وقابلية التوسع والبيانات",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.66,
+        "cognitive_lens": "Gemini-Systems-Scale"
+      }
+    },
+    {
+      "uuid": "node-actor-10",
+      "name": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "summary_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2) — عدسة التفكير: ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": 0.03,
+        "cognitive_lens": "Grok-Contrarian-Pulse"
+      }
+    },
+    {
+      "uuid": "node-actor-11",
+      "name": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)",
+      "entity_type": "TechMediaJournalist",
+      "summary_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2) — عدسة التفكير: تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.33,
+        "cognitive_lens": "Qwen-Pragmatic-Ops"
+      }
+    },
+    {
+      "uuid": "node-actor-12",
+      "name": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "summary_ar": "فهد — مدير مبيعات أداة تقليدية منافسة (#2) — عدسة التفكير: مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة",
+      "attributes": {
+        "initial_stance": "opposing",
+        "initial_sentiment": -0.49,
+        "cognitive_lens": "Kimi-Deep-Context-Auditor"
+      }
+    },
+    {
+      "uuid": "node-actor-13",
+      "name": "م. طارق — مدير تقني لشركة تقنية مالية (#3)",
+      "entity_type": "StartupCTO",
+      "summary_ar": "م. طارق — مدير تقني لشركة تقنية مالية (#3) — عدسة التفكير: تحليلي صارم يركز على سلامة الكود والبراهين الموثقة",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.28,
+        "cognitive_lens": "Claude-Analytical-Security"
+      }
+    },
+    {
+      "uuid": "node-actor-14",
+      "name": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "summary_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3) — عدسة التفكير: استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد",
+      "attributes": {
+        "initial_stance": "opposing",
+        "initial_sentiment": -0.38,
+        "cognitive_lens": "GPT-Strategic-Growth"
+      }
+    },
+    {
+      "uuid": "node-actor-15",
+      "name": "ريان — مؤسس مشروع برمجي سحابي (#3)",
+      "entity_type": "SoloFounder",
+      "summary_ar": "ريان — مؤسس مشروع برمجي سحابي (#3) — عدسة التفكير: معماري يركز على التكامل السحابي وقابلية التوسع والبيانات",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.37,
+        "cognitive_lens": "Gemini-Systems-Scale"
+      }
+    },
+    {
+      "uuid": "node-actor-16",
+      "name": "م. زياد — باحث ومهندس تدقيق كود أبيض (#3)",
+      "entity_type": "AppSecEngineer",
+      "summary_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض (#3) — عدسة التفكير: ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": -0.02,
+        "cognitive_lens": "Grok-Contrarian-Pulse"
+      }
+    },
+    {
+      "uuid": "node-actor-17",
+      "name": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "summary_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3) — عدسة التفكير: تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": -0.03,
+        "cognitive_lens": "Qwen-Pragmatic-Ops"
+      }
+    },
+    {
+      "uuid": "node-actor-18",
+      "name": "فهد — مدير مبيعات أداة تقليدية منافسة (#3)",
+      "entity_type": "CompetitorVendor",
+      "summary_ar": "فهد — مدير مبيعات أداة تقليدية منافسة (#3) — عدسة التفكير: مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة",
+      "attributes": {
+        "initial_stance": "opposing",
+        "initial_sentiment": -0.72,
+        "cognitive_lens": "Kimi-Deep-Context-Auditor"
+      }
+    },
+    {
+      "uuid": "node-actor-19",
+      "name": "م. طارق — مدير تقني لشركة تقنية مالية (#4)",
+      "entity_type": "StartupCTO",
+      "summary_ar": "م. طارق — مدير تقني لشركة تقنية مالية (#4) — عدسة التفكير: تحليلي صارم يركز على سلامة الكود والبراهين الموثقة",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.33,
+        "cognitive_lens": "Claude-Analytical-Security"
+      }
+    },
+    {
+      "uuid": "node-actor-20",
+      "name": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)",
+      "entity_type": "EnterpriseCISO",
+      "summary_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4) — عدسة التفكير: استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": -0.16,
+        "cognitive_lens": "GPT-Strategic-Growth"
+      }
+    },
+    {
+      "uuid": "node-actor-21",
+      "name": "ريان — مؤسس مشروع برمجي سحابي (#4)",
+      "entity_type": "SoloFounder",
+      "summary_ar": "ريان — مؤسس مشروع برمجي سحابي (#4) — عدسة التفكير: معماري يركز على التكامل السحابي وقابلية التوسع والبيانات",
+      "attributes": {
+        "initial_stance": "supportive",
+        "initial_sentiment": 0.42,
+        "cognitive_lens": "Gemini-Systems-Scale"
+      }
+    },
+    {
+      "uuid": "node-actor-22",
+      "name": "م. زياد — باحث ومهندس تدقيق كود أبيض (#4)",
+      "entity_type": "AppSecEngineer",
+      "summary_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض (#4) — عدسة التفكير: ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً",
+      "attributes": {
+        "initial_stance": "skeptical",
+        "initial_sentiment": -0.08,
+        "cognitive_lens": "Grok-Contrarian-Pulse"
+      }
+    },
+    {
+      "uuid": "node-actor-23",
+      "name": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "summary_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4) — عدسة التفكير: تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ",
+      "attributes": {
+        "initial_stance": "observer",
+        "initial_sentiment": 0.27,
+        "cognitive_lens": "Qwen-Pragmatic-Ops"
+      }
+    },
+    {
+      "uuid": "node-actor-24",
+      "name": "فهد — مدير مبيعات أداة تقليدية منافسة (#4)",
+      "entity_type": "CompetitorVendor",
+      "summary_ar": "فهد — مدير مبيعات أداة تقليدية منافسة (#4) — عدسة التفكير: مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة",
+      "attributes": {
+        "initial_stance": "opposing",
+        "initial_sentiment": -0.73,
+        "cognitive_lens": "Kimi-Deep-Context-Auditor"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "uuid": "edge-init-01",
+      "source_uuid": "node-actor-01",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «م. طارق — مدير تقني لشركة تقنية مالية» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.30).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-02",
+      "source_uuid": "node-actor-02",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «د. سلمى — مديرة أمن معلومات في قطاع بنكي» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (-0.31).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-03",
+      "source_uuid": "node-actor-03",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «ريان — مؤسس مشروع برمجي سحابي» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.48).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-04",
+      "source_uuid": "node-actor-04",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «م. زياد — باحث ومهندس تدقيق كود أبيض» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (+0.01).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-05",
+      "source_uuid": "node-actor-05",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (+0.08).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-06",
+      "source_uuid": "node-actor-06",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «فهد — مدير مبيعات أداة تقليدية منافسة» بتقييم المبادرة بموقف (opposing) وميل عاطفي (-0.77).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-07",
+      "source_uuid": "node-actor-07",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «م. طارق — مدير تقني لشركة تقنية مالية (#2)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.52).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-08",
+      "source_uuid": "node-actor-08",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (-0.15).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-09",
+      "source_uuid": "node-actor-09",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «ريان — مؤسس مشروع برمجي سحابي (#2)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.66).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-10",
+      "source_uuid": "node-actor-10",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «م. زياد — باحث ومهندس تدقيق كود أبيض (#2)» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (+0.03).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-11",
+      "source_uuid": "node-actor-11",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.33).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-12",
+      "source_uuid": "node-actor-12",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «فهد — مدير مبيعات أداة تقليدية منافسة (#2)» بتقييم المبادرة بموقف (opposing) وميل عاطفي (-0.49).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-13",
+      "source_uuid": "node-actor-13",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «م. طارق — مدير تقني لشركة تقنية مالية (#3)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.28).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-14",
+      "source_uuid": "node-actor-14",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)» بتقييم المبادرة بموقف (opposing) وميل عاطفي (-0.38).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-15",
+      "source_uuid": "node-actor-15",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «ريان — مؤسس مشروع برمجي سحابي (#3)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.37).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-16",
+      "source_uuid": "node-actor-16",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «م. زياد — باحث ومهندس تدقيق كود أبيض (#3)» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (-0.02).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-17",
+      "source_uuid": "node-actor-17",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (-0.03).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-18",
+      "source_uuid": "node-actor-18",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «فهد — مدير مبيعات أداة تقليدية منافسة (#3)» بتقييم المبادرة بموقف (opposing) وميل عاطفي (-0.72).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-19",
+      "source_uuid": "node-actor-19",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «م. طارق — مدير تقني لشركة تقنية مالية (#4)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.33).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-20",
+      "source_uuid": "node-actor-20",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (-0.16).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-21",
+      "source_uuid": "node-actor-21",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ENDORSES_PUBLICLY",
+      "fact_ar": "بدأ «ريان — مؤسس مشروع برمجي سحابي (#4)» بتقييم المبادرة بموقف (supportive) وميل عاطفي (+0.42).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-init-22",
+      "source_uuid": "node-actor-22",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «م. زياد — باحث ومهندس تدقيق كود أبيض (#4)» بتقييم المبادرة بموقف (skeptical) وميل عاطفي (-0.08).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-23",
+      "source_uuid": "node-actor-23",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)» بتقييم المبادرة بموقف (observer) وميل عاطفي (+0.27).",
+      "valid_at_round": 0,
+      "invalid_at_round": 6
+    },
+    {
+      "uuid": "edge-init-24",
+      "source_uuid": "node-actor-24",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "EVALUATES_PRODUCT",
+      "fact_ar": "بدأ «فهد — مدير مبيعات أداة تقليدية منافسة (#4)» بتقييم المبادرة بموقف (opposing) وميل عاطفي (-0.73).",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-01",
+      "source_uuid": "node-actor-01",
+      "target_uuid": "node-actor-04",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. زياد — باحث ومهندس تدقيق كود أبيض» تحليلات «م. طارق — مدير تقني لشركة تقنية مالية» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-02",
+      "source_uuid": "node-actor-02",
+      "target_uuid": "node-actor-05",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي» تحليلات «د. سلمى — مديرة أمن معلومات في قطاع بنكي» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-03",
+      "source_uuid": "node-actor-03",
+      "target_uuid": "node-actor-06",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «فهد — مدير مبيعات أداة تقليدية منافسة» تحليلات «ريان — مؤسس مشروع برمجي سحابي» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-04",
+      "source_uuid": "node-actor-04",
+      "target_uuid": "node-actor-07",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. طارق — مدير تقني لشركة تقنية مالية (#2)» تحليلات «م. زياد — باحث ومهندس تدقيق كود أبيض» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-05",
+      "source_uuid": "node-actor-05",
+      "target_uuid": "node-actor-08",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)» تحليلات «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-06",
+      "source_uuid": "node-actor-06",
+      "target_uuid": "node-actor-09",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ريان — مؤسس مشروع برمجي سحابي (#2)» تحليلات «فهد — مدير مبيعات أداة تقليدية منافسة» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-07",
+      "source_uuid": "node-actor-07",
+      "target_uuid": "node-actor-10",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. زياد — باحث ومهندس تدقيق كود أبيض (#2)» تحليلات «م. طارق — مدير تقني لشركة تقنية مالية (#2)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-08",
+      "source_uuid": "node-actor-08",
+      "target_uuid": "node-actor-11",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)» تحليلات «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-09",
+      "source_uuid": "node-actor-09",
+      "target_uuid": "node-actor-12",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «فهد — مدير مبيعات أداة تقليدية منافسة (#2)» تحليلات «ريان — مؤسس مشروع برمجي سحابي (#2)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-10",
+      "source_uuid": "node-actor-10",
+      "target_uuid": "node-actor-13",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. طارق — مدير تقني لشركة تقنية مالية (#3)» تحليلات «م. زياد — باحث ومهندس تدقيق كود أبيض (#2)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-11",
+      "source_uuid": "node-actor-11",
+      "target_uuid": "node-actor-14",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)» تحليلات «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-12",
+      "source_uuid": "node-actor-12",
+      "target_uuid": "node-actor-15",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ريان — مؤسس مشروع برمجي سحابي (#3)» تحليلات «فهد — مدير مبيعات أداة تقليدية منافسة (#2)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-13",
+      "source_uuid": "node-actor-13",
+      "target_uuid": "node-actor-16",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. زياد — باحث ومهندس تدقيق كود أبيض (#3)» تحليلات «م. طارق — مدير تقني لشركة تقنية مالية (#3)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-14",
+      "source_uuid": "node-actor-14",
+      "target_uuid": "node-actor-17",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)» تحليلات «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-15",
+      "source_uuid": "node-actor-15",
+      "target_uuid": "node-actor-18",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «فهد — مدير مبيعات أداة تقليدية منافسة (#3)» تحليلات «ريان — مؤسس مشروع برمجي سحابي (#3)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-16",
+      "source_uuid": "node-actor-16",
+      "target_uuid": "node-actor-19",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. طارق — مدير تقني لشركة تقنية مالية (#4)» تحليلات «م. زياد — باحث ومهندس تدقيق كود أبيض (#3)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-17",
+      "source_uuid": "node-actor-17",
+      "target_uuid": "node-actor-20",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)» تحليلات «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-18",
+      "source_uuid": "node-actor-18",
+      "target_uuid": "node-actor-21",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ريان — مؤسس مشروع برمجي سحابي (#4)» تحليلات «فهد — مدير مبيعات أداة تقليدية منافسة (#3)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-19",
+      "source_uuid": "node-actor-19",
+      "target_uuid": "node-actor-22",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. زياد — باحث ومهندس تدقيق كود أبيض (#4)» تحليلات «م. طارق — مدير تقني لشركة تقنية مالية (#4)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-20",
+      "source_uuid": "node-actor-20",
+      "target_uuid": "node-actor-23",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)» تحليلات «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-21",
+      "source_uuid": "node-actor-21",
+      "target_uuid": "node-actor-24",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «فهد — مدير مبيعات أداة تقليدية منافسة (#4)» تحليلات «ريان — مؤسس مشروع برمجي سحابي (#4)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-22",
+      "source_uuid": "node-actor-22",
+      "target_uuid": "node-actor-01",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «م. طارق — مدير تقني لشركة تقنية مالية» تحليلات «م. زياد — باحث ومهندس تدقيق كود أبيض (#4)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-23",
+      "source_uuid": "node-actor-23",
+      "target_uuid": "node-actor-02",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «د. سلمى — مديرة أمن معلومات في قطاع بنكي» تحليلات «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-peer-24",
+      "source_uuid": "node-actor-24",
+      "target_uuid": "node-actor-03",
+      "relation_type": "INFLUENCES_PEER",
+      "fact_ar": "يتابع «ريان — مؤسس مشروع برمجي سحابي» تحليلات «فهد — مدير مبيعات أداة تقليدية منافسة (#4)» المهنية.",
+      "valid_at_round": 0,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-2",
+      "source_uuid": "node-actor-02",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «د. سلمى — مديرة أمن معلومات في قطاع بنكي» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-4",
+      "source_uuid": "node-actor-04",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «م. زياد — باحث ومهندس تدقيق كود أبيض» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-5",
+      "source_uuid": "node-actor-05",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-8",
+      "source_uuid": "node-actor-08",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-10",
+      "source_uuid": "node-actor-10",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «م. زياد — باحث ومهندس تدقيق كود أبيض (#2)» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-14",
+      "source_uuid": "node-actor-14",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "CHALLENGES_CLAIM",
+      "fact_ar": "في الجولة 6 تحوّل «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)» من (opposing) إلى (skeptical) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-16",
+      "source_uuid": "node-actor-16",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «م. زياد — باحث ومهندس تدقيق كود أبيض (#3)» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-17",
+      "source_uuid": "node-actor-17",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-20",
+      "source_uuid": "node-actor-20",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-22",
+      "source_uuid": "node-actor-22",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «م. زياد — باحث ومهندس تدقيق كود أبيض (#4)» من (skeptical) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    },
+    {
+      "uuid": "edge-shift-r6-23",
+      "source_uuid": "node-actor-23",
+      "target_uuid": "node-arena96-platform",
+      "relation_type": "ADOPTS_PLATFORM",
+      "fact_ar": "في الجولة 6 تحوّل «ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)» من (observer) إلى (supportive) عقب: عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "valid_at_round": 6,
+      "invalid_at_round": null
+    }
+  ],
+  "agents": [
+    {
+      "agent_id": 1,
+      "entity_uuid": "node-actor-01",
+      "name_ar": "م. طارق — مدير تقني لشركة تقنية مالية",
+      "entity_type": "StartupCTO",
+      "cognitive_model_lens": "Claude-Analytical-Security",
+      "activity_level": 0.88,
+      "posts_per_hour": 1.31,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 17,
+      "sentiment_bias": 0.68,
+      "stance": "supportive",
+      "influence_weight": 1.25,
+      "bio_ar": "يمثل فئة StartupCTO، يحلل القرارات بعدسة (Claude-Analytical-Security): تحليلي صارم يركز على سلامة الكود والبراهين الموثقة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 5] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق.",
+        "[جولة 9] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+      ]
+    },
+    {
+      "agent_id": 2,
+      "entity_uuid": "node-actor-02",
+      "name_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_model_lens": "GPT-Strategic-Growth",
+      "activity_level": 0.47,
+      "posts_per_hour": 2.2,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 14,
+      "sentiment_bias": 0.28,
+      "stance": "supportive",
+      "influence_weight": 1.65,
+      "bio_ar": "يمثل فئة EnterpriseCISO، يحلل القرارات بعدسة (GPT-Strategic-Growth): استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 2] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 3] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 8] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 3,
+      "entity_uuid": "node-actor-03",
+      "name_ar": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "cognitive_model_lens": "Gemini-Systems-Scale",
+      "activity_level": 0.57,
+      "posts_per_hour": 1.21,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 21,
+      "sentiment_bias": 0.56,
+      "stance": "supportive",
+      "influence_weight": 1.07,
+      "bio_ar": "يمثل فئة SoloFounder، يحلل القرارات بعدسة (Gemini-Systems-Scale): معماري يركز على التكامل السحابي وقابلية التوسع والبيانات.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 3] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 4] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 5] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 4,
+      "entity_uuid": "node-actor-04",
+      "name_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_model_lens": "Grok-Contrarian-Pulse",
+      "activity_level": 0.85,
+      "posts_per_hour": 1.46,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 38,
+      "sentiment_bias": 0.42,
+      "stance": "supportive",
+      "influence_weight": 1.48,
+      "bio_ar": "يمثل فئة AppSecEngineer، يحلل القرارات بعدسة (Grok-Contrarian-Pulse): ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 2] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 5] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة.",
+        "[جولة 8] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة.",
+        "[جولة 11] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة.",
+        "[جولة 12] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 5,
+      "entity_uuid": "node-actor-05",
+      "name_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_model_lens": "Qwen-Pragmatic-Ops",
+      "activity_level": 0.77,
+      "posts_per_hour": 1.22,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 36,
+      "sentiment_bias": 0.49,
+      "stance": "supportive",
+      "influence_weight": 1.77,
+      "bio_ar": "يمثل فئة TechMediaJournalist، يحلل القرارات بعدسة (Qwen-Pragmatic-Ops): تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 5] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 6,
+      "entity_uuid": "node-actor-06",
+      "name_ar": "فهد — مدير مبيعات أداة تقليدية منافسة",
+      "entity_type": "CompetitorVendor",
+      "cognitive_model_lens": "Kimi-Deep-Context-Auditor",
+      "activity_level": 0.51,
+      "posts_per_hour": 1.51,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 17,
+      "sentiment_bias": -0.76,
+      "stance": "opposing",
+      "influence_weight": 1.09,
+      "bio_ar": "يمثل فئة CompetitorVendor، يحلل القرارات بعدسة (Kimi-Deep-Context-Auditor): مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (opposing) إلى (opposing)."
+      ]
+    },
+    {
+      "agent_id": 7,
+      "entity_uuid": "node-actor-07",
+      "name_ar": "م. طارق — مدير تقني لشركة تقنية مالية (#2)",
+      "entity_type": "StartupCTO",
+      "cognitive_model_lens": "Claude-Analytical-Security",
+      "activity_level": 0.73,
+      "posts_per_hour": 0.81,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 39,
+      "sentiment_bias": 0.85,
+      "stance": "supportive",
+      "influence_weight": 1.5,
+      "bio_ar": "يمثل فئة StartupCTO، يحلل القرارات بعدسة (Claude-Analytical-Security): تحليلي صارم يركز على سلامة الكود والبراهين الموثقة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 5] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق.",
+        "[جولة 11] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+      ]
+    },
+    {
+      "agent_id": 8,
+      "entity_uuid": "node-actor-08",
+      "name_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_model_lens": "GPT-Strategic-Growth",
+      "activity_level": 0.91,
+      "posts_per_hour": 1.61,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 20,
+      "sentiment_bias": 0.38,
+      "stance": "supportive",
+      "influence_weight": 1.59,
+      "bio_ar": "يمثل فئة EnterpriseCISO، يحلل القرارات بعدسة (GPT-Strategic-Growth): استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 2] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 3] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 5] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة.",
+        "[جولة 12] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 9,
+      "entity_uuid": "node-actor-09",
+      "name_ar": "ريان — مؤسس مشروع برمجي سحابي (#2)",
+      "entity_type": "SoloFounder",
+      "cognitive_model_lens": "Gemini-Systems-Scale",
+      "activity_level": 0.54,
+      "posts_per_hour": 1.38,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 42,
+      "sentiment_bias": 0.69,
+      "stance": "supportive",
+      "influence_weight": 1.05,
+      "bio_ar": "يمثل فئة SoloFounder، يحلل القرارات بعدسة (Gemini-Systems-Scale): معماري يركز على التكامل السحابي وقابلية التوسع والبيانات.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 3] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً.",
+        "[جولة 7] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 10,
+      "entity_uuid": "node-actor-10",
+      "name_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_model_lens": "Grok-Contrarian-Pulse",
+      "activity_level": 0.62,
+      "posts_per_hour": 1.77,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 45,
+      "sentiment_bias": 0.53,
+      "stance": "supportive",
+      "influence_weight": 1.46,
+      "bio_ar": "يمثل فئة AppSecEngineer، يحلل القرارات بعدسة (Grok-Contrarian-Pulse): ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 2] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 3] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة.",
+        "[جولة 8] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 11,
+      "entity_uuid": "node-actor-11",
+      "name_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_model_lens": "Qwen-Pragmatic-Ops",
+      "activity_level": 0.49,
+      "posts_per_hour": 1.67,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 16,
+      "sentiment_bias": 0.75,
+      "stance": "supportive",
+      "influence_weight": 1.94,
+      "bio_ar": "يمثل فئة TechMediaJournalist، يحلل القرارات بعدسة (Qwen-Pragmatic-Ops): تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 3] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 5] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 12,
+      "entity_uuid": "node-actor-12",
+      "name_ar": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_model_lens": "Kimi-Deep-Context-Auditor",
+      "activity_level": 0.81,
+      "posts_per_hour": 1.16,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 6,
+      "sentiment_bias": -0.18,
+      "stance": "opposing",
+      "influence_weight": 1.15,
+      "bio_ar": "يمثل فئة CompetitorVendor، يحلل القرارات بعدسة (Kimi-Deep-Context-Auditor): مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 4] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 5] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (opposing) إلى (opposing).",
+        "[جولة 6] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 7] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 11] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+      ]
+    },
+    {
+      "agent_id": 13,
+      "entity_uuid": "node-actor-13",
+      "name_ar": "م. طارق — مدير تقني لشركة تقنية مالية (#3)",
+      "entity_type": "StartupCTO",
+      "cognitive_model_lens": "Claude-Analytical-Security",
+      "activity_level": 0.56,
+      "posts_per_hour": 0.91,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 31,
+      "sentiment_bias": 0.71,
+      "stance": "supportive",
+      "influence_weight": 1.22,
+      "bio_ar": "يمثل فئة StartupCTO، يحلل القرارات بعدسة (Claude-Analytical-Security): تحليلي صارم يركز على سلامة الكود والبراهين الموثقة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 4] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+      ]
+    },
+    {
+      "agent_id": 14,
+      "entity_uuid": "node-actor-14",
+      "name_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_model_lens": "GPT-Strategic-Growth",
+      "activity_level": 0.87,
+      "posts_per_hour": 0.72,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 33,
+      "sentiment_bias": 0.18,
+      "stance": "skeptical",
+      "influence_weight": 1.6,
+      "bio_ar": "يمثل فئة EnterpriseCISO، يحلل القرارات بعدسة (GPT-Strategic-Growth): استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 3] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 4] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 5] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (opposing) إلى (skeptical).",
+        "[جولة 6] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 7] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+      ]
+    },
+    {
+      "agent_id": 15,
+      "entity_uuid": "node-actor-15",
+      "name_ar": "ريان — مؤسس مشروع برمجي سحابي (#3)",
+      "entity_type": "SoloFounder",
+      "cognitive_model_lens": "Gemini-Systems-Scale",
+      "activity_level": 0.53,
+      "posts_per_hour": 1.88,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 7,
+      "sentiment_bias": 0.54,
+      "stance": "supportive",
+      "influence_weight": 1.13,
+      "bio_ar": "يمثل فئة SoloFounder، يحلل القرارات بعدسة (Gemini-Systems-Scale): معماري يركز على التكامل السحابي وقابلية التوسع والبيانات.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 5] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 16,
+      "entity_uuid": "node-actor-16",
+      "name_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض (#3)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_model_lens": "Grok-Contrarian-Pulse",
+      "activity_level": 0.48,
+      "posts_per_hour": 1.08,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 17,
+      "sentiment_bias": 0.43,
+      "stance": "supportive",
+      "influence_weight": 1.35,
+      "bio_ar": "يمثل فئة AppSecEngineer، يحلل القرارات بعدسة (Grok-Contrarian-Pulse): ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 4] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة.",
+        "[جولة 12] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 17,
+      "entity_uuid": "node-actor-17",
+      "name_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_model_lens": "Qwen-Pragmatic-Ops",
+      "activity_level": 0.55,
+      "posts_per_hour": 1.13,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 9,
+      "sentiment_bias": 0.37,
+      "stance": "supportive",
+      "influence_weight": 1.87,
+      "bio_ar": "يمثل فئة TechMediaJournalist، يحلل القرارات بعدسة (Qwen-Pragmatic-Ops): تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 3] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 5] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 7] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً.",
+        "[جولة 8] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً.",
+        "[جولة 11] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 18,
+      "entity_uuid": "node-actor-18",
+      "name_ar": "فهد — مدير مبيعات أداة تقليدية منافسة (#3)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_model_lens": "Kimi-Deep-Context-Auditor",
+      "activity_level": 0.85,
+      "posts_per_hour": 0.75,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 43,
+      "sentiment_bias": -0.51,
+      "stance": "opposing",
+      "influence_weight": 1.15,
+      "bio_ar": "يمثل فئة CompetitorVendor، يحلل القرارات بعدسة (Kimi-Deep-Context-Auditor): مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 2] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 5] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (opposing) إلى (opposing).",
+        "[جولة 6] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 7] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+      ]
+    },
+    {
+      "agent_id": 19,
+      "entity_uuid": "node-actor-19",
+      "name_ar": "م. طارق — مدير تقني لشركة تقنية مالية (#4)",
+      "entity_type": "StartupCTO",
+      "cognitive_model_lens": "Claude-Analytical-Security",
+      "activity_level": 0.59,
+      "posts_per_hour": 2.07,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 45,
+      "sentiment_bias": 0.73,
+      "stance": "supportive",
+      "influence_weight": 1.26,
+      "bio_ar": "يمثل فئة StartupCTO، يحلل القرارات بعدسة (Claude-Analytical-Security): تحليلي صارم يركز على سلامة الكود والبراهين الموثقة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 5] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق.",
+        "[جولة 7] نشر موقفاً (supportive): دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+      ]
+    },
+    {
+      "agent_id": 20,
+      "entity_uuid": "node-actor-20",
+      "name_ar": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_model_lens": "GPT-Strategic-Growth",
+      "activity_level": 0.5,
+      "posts_per_hour": 2.11,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 34,
+      "sentiment_bias": 0.3,
+      "stance": "supportive",
+      "influence_weight": 1.62,
+      "bio_ar": "يمثل فئة EnterpriseCISO، يحلل القرارات بعدسة (GPT-Strategic-Growth): استراتيجي يوازن بين سرعة النمو وتجربة المستخدم والعائد.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 1] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 4] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 8] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 21,
+      "entity_uuid": "node-actor-21",
+      "name_ar": "ريان — مؤسس مشروع برمجي سحابي (#4)",
+      "entity_type": "SoloFounder",
+      "cognitive_model_lens": "Gemini-Systems-Scale",
+      "activity_level": 0.54,
+      "posts_per_hour": 1.36,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 9,
+      "sentiment_bias": 0.58,
+      "stance": "supportive",
+      "influence_weight": 1.12,
+      "bio_ar": "يمثل فئة SoloFounder، يحلل القرارات بعدسة (Gemini-Systems-Scale): معماري يركز على التكامل السحابي وقابلية التوسع والبيانات.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 2] نشر موقفاً (supportive): فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (supportive) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً.",
+        "[جولة 7] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 22,
+      "entity_uuid": "node-actor-22",
+      "name_ar": "م. زياد — باحث ومهندس تدقيق كود أبيض (#4)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_model_lens": "Grok-Contrarian-Pulse",
+      "activity_level": 0.68,
+      "posts_per_hour": 1.57,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 44,
+      "sentiment_bias": 0.39,
+      "stance": "supportive",
+      "influence_weight": 1.31,
+      "bio_ar": "يمثل فئة AppSecEngineer، يحلل القرارات بعدسة (Grok-Contrarian-Pulse): ناقد صريح يكشف المبالغات التسويقية ونقاط الضعف فوراً.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 5] نشر موقفاً (skeptical): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (skeptical) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+      ]
+    },
+    {
+      "agent_id": 23,
+      "entity_uuid": "node-actor-23",
+      "name_ar": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_model_lens": "Qwen-Pragmatic-Ops",
+      "activity_level": 0.77,
+      "posts_per_hour": 1.69,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 31,
+      "sentiment_bias": 0.6,
+      "stance": "supportive",
+      "influence_weight": 1.86,
+      "bio_ar": "يمثل فئة TechMediaJournalist، يحلل القرارات بعدسة (Qwen-Pragmatic-Ops): تشغيلي عملي يركز على التكلفة والأتمتة وكفاءة التنفيذ.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 2] نشر موقفاً (observer): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 3] نشر موقفاً (observer): المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (observer) إلى (supportive).",
+        "[جولة 6] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً.",
+        "[جولة 7] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً.",
+        "[جولة 12] نشر موقفاً (supportive): تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+      ]
+    },
+    {
+      "agent_id": 24,
+      "entity_uuid": "node-actor-24",
+      "name_ar": "فهد — مدير مبيعات أداة تقليدية منافسة (#4)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_model_lens": "Kimi-Deep-Context-Auditor",
+      "activity_level": 0.59,
+      "posts_per_hour": 1.27,
+      "active_hours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "response_delay_min": 16,
+      "sentiment_bias": -0.67,
+      "stance": "opposing",
+      "influence_weight": 1.14,
+      "bio_ar": "يمثل فئة CompetitorVendor، يحلل القرارات بعدسة (Kimi-Deep-Context-Auditor): مدقق عميق السياق يربط التفاصيل القانونية والأمنية الطويلة.",
+      "episodic_memory": [
+        "[جولة 0] اطّلع على البذرة الأولية: قياس قفزة الثقة والتبني السوقي بعد إضافة النسخة السيبرانية المتخصصة Cyber-Prime v2.0",
+        "[جولة 5] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول.",
+        "[جولة 6 · تدخل ماذا-لو] شهد الحدث الجديد: «عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)» فتحوّل موقفه من (opposing) إلى (opposing).",
+        "[جولة 7] نشر موقفاً (opposing): ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "round": 1,
+      "sim_hour": 10,
+      "circadian_multiplier": 0.8,
+      "active_speakers": 7,
+      "supportive_count": 9,
+      "skeptical_or_observer_count": 10,
+      "opposing_count": 5,
+      "support_ratio_percent": 37.5,
+      "avg_sentiment": 0.01,
+      "polarization_index": 0.396
+    },
+    {
+      "round": 2,
+      "sim_hour": 12,
+      "circadian_multiplier": 0.8,
+      "active_speakers": 7,
+      "supportive_count": 9,
+      "skeptical_or_observer_count": 10,
+      "opposing_count": 5,
+      "support_ratio_percent": 37.5,
+      "avg_sentiment": 0.016,
+      "polarization_index": 0.389
+    },
+    {
+      "round": 3,
+      "sim_hour": 14,
+      "circadian_multiplier": 0.8,
+      "active_speakers": 9,
+      "supportive_count": 9,
+      "skeptical_or_observer_count": 10,
+      "opposing_count": 5,
+      "support_ratio_percent": 37.5,
+      "avg_sentiment": 0.016,
+      "polarization_index": 0.376
+    },
+    {
+      "round": 4,
+      "sim_hour": 16,
+      "circadian_multiplier": 0.8,
+      "active_speakers": 6,
+      "supportive_count": 9,
+      "skeptical_or_observer_count": 10,
+      "opposing_count": 5,
+      "support_ratio_percent": 37.5,
+      "avg_sentiment": 0.016,
+      "polarization_index": 0.371
+    },
+    {
+      "round": 5,
+      "sim_hour": 18,
+      "circadian_multiplier": 1.45,
+      "active_speakers": 15,
+      "supportive_count": 9,
+      "skeptical_or_observer_count": 10,
+      "opposing_count": 5,
+      "support_ratio_percent": 37.5,
+      "avg_sentiment": 0.018,
+      "polarization_index": 0.354
+    },
+    {
+      "round": 6,
+      "sim_hour": 20,
+      "circadian_multiplier": 1.45,
+      "active_speakers": 13,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.345,
+      "polarization_index": 0.462
+    },
+    {
+      "round": 7,
+      "sim_hour": 22,
+      "circadian_multiplier": 1.45,
+      "active_speakers": 15,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.35,
+      "polarization_index": 0.441
+    },
+    {
+      "round": 8,
+      "sim_hour": 0,
+      "circadian_multiplier": 0.5,
+      "active_speakers": 5,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.349,
+      "polarization_index": 0.44
+    },
+    {
+      "round": 9,
+      "sim_hour": 2,
+      "circadian_multiplier": 0.08,
+      "active_speakers": 1,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.349,
+      "polarization_index": 0.44
+    },
+    {
+      "round": 10,
+      "sim_hour": 4,
+      "circadian_multiplier": 0.08,
+      "active_speakers": 0,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.349,
+      "polarization_index": 0.44
+    },
+    {
+      "round": 11,
+      "sim_hour": 6,
+      "circadian_multiplier": 0.45,
+      "active_speakers": 4,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.349,
+      "polarization_index": 0.433
+    },
+    {
+      "round": 12,
+      "sim_hour": 8,
+      "circadian_multiplier": 0.45,
+      "active_speakers": 4,
+      "supportive_count": 19,
+      "skeptical_or_observer_count": 1,
+      "opposing_count": 4,
+      "support_ratio_percent": 79.2,
+      "avg_sentiment": 0.347,
+      "polarization_index": 0.433
+    }
+  ],
+  "posts_stream_x": [
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 1,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.32,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 3,
+      "author": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.48,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 6,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.71,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 7,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#2)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.46,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 8,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.15,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 10,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": 0.04,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 1,
+      "sim_hour": "10:00",
+      "agent_id": 20,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.18,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 18,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#3)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.66,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 21,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#4)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.4,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 23,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "observer",
+      "sentiment": 0.23,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 2,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.2,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 3,
+      "author": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.44,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 8,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.1,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 9,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#2)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.59,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 10,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": 0.05,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 11,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.3,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 14,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "opposing",
+      "sentiment": -0.32,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 17,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "skeptical",
+      "sentiment": -0.01,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 3,
+      "sim_hour": "14:00",
+      "agent_id": 23,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "observer",
+      "sentiment": 0.22,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 4,
+      "sim_hour": "16:00",
+      "agent_id": 3,
+      "author": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.38,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 4,
+      "sim_hour": "16:00",
+      "agent_id": 12,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.48,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 1,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.29,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 3,
+      "author": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.37,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 4,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": 0.04,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 5,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "skeptical",
+      "sentiment": 0.06,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 7,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#2)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.43,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 8,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.09,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 11,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.3,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 12,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.4,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 14,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "opposing",
+      "sentiment": -0.3,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 15,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#3)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.32,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 17,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "skeptical",
+      "sentiment": -0.03,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 18,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#3)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.61,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 19,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#4)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.3,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 22,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#4)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": -0.03,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 5,
+      "sim_hour": "18:00",
+      "agent_id": 24,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#4)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.7,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 3,
+      "author": "ريان — مؤسس مشروع برمجي سحابي",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.56,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 5,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.49,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 9,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#2)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.75,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 12,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.35,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 18,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#3)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.57,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 21,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#4)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.59,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 23,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.64,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 4,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.49,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 7,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#2)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.88,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 9,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#2)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.69,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 10,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.52,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 11,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#2)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.75,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 12,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.27,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 14,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": 0.18,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 15,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#3)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.54,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 16,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#3)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.43,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 17,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.43,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 18,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#3)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.51,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 19,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#4)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.73,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 21,
+      "author": "ريان — مؤسس مشروع برمجي سحابي (#4)",
+      "entity_type": "SoloFounder",
+      "cognitive_lens": "Gemini-Systems-Scale",
+      "stance": "supportive",
+      "sentiment": 0.58,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 23,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.61,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 7,
+      "sim_hour": "22:00",
+      "agent_id": 24,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#4)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.67,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 8,
+      "sim_hour": "00:00",
+      "agent_id": 17,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.41,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 9,
+      "sim_hour": "02:00",
+      "agent_id": 1,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.68,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 11,
+      "sim_hour": "06:00",
+      "agent_id": 4,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.42,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 11,
+      "sim_hour": "06:00",
+      "agent_id": 7,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#2)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.85,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 11,
+      "sim_hour": "06:00",
+      "agent_id": 12,
+      "author": "فهد — مدير مبيعات أداة تقليدية منافسة (#2)",
+      "entity_type": "CompetitorVendor",
+      "cognitive_lens": "Kimi-Deep-Context-Auditor",
+      "stance": "opposing",
+      "sentiment": -0.18,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 11,
+      "sim_hour": "06:00",
+      "agent_id": 17,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#3)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.37,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    },
+    {
+      "round": 12,
+      "sim_hour": "08:00",
+      "agent_id": 23,
+      "author": "ليلى — محررة تقنية متخصصة في الذكاء الاصطناعي (#4)",
+      "entity_type": "TechMediaJournalist",
+      "cognitive_lens": "Qwen-Pragmatic-Ops",
+      "stance": "supportive",
+      "sentiment": 0.6,
+      "content_ar": "تحول واضح في المصداقية بعد إتاحة التجربة الموثقة؛ القيمة مقابل السعر أصبحت مقنعة جداً."
+    }
+  ],
+  "posts_forum": [
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 2,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.27,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 4,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": 0.05,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 8,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.14,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 2,
+      "sim_hour": "12:00",
+      "agent_id": 10,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": 0.08,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 4,
+      "sim_hour": "16:00",
+      "agent_id": 13,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#3)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.27,
+      "content_ar": "فكرة المدير التنفيذي الواحد مع خانة «ينتظرك» تمنح المؤسس سيطرة كاملة دون الغرق في التفاصيل التشغيلية."
+    },
+    {
+      "round": 4,
+      "sim_hour": "16:00",
+      "agent_id": 14,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "opposing",
+      "sentiment": -0.31,
+      "content_ar": "ندعي دائماً الحذر من المنصات الشاملة؛ نحتاج لرؤية نتائج الفحص الفعلي على مستودعات حقيقية قبل التحول."
+    },
+    {
+      "round": 4,
+      "sim_hour": "16:00",
+      "agent_id": 16,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#3)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "skeptical",
+      "sentiment": 0.01,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 4,
+      "sim_hour": "16:00",
+      "agent_id": 20,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": -0.16,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 1,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.69,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 8,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "supportive",
+      "sentiment": 0.4,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 13,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#3)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.71,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 14,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#3)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "skeptical",
+      "sentiment": 0.17,
+      "content_ar": "المفهوم واعد جداً، لكن كمدققين ننتظر إثبات انخفاض الإيجابيات الكاذبة وضمان عدم تنفيذ أي إجراء خارجي بلا تفويض."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 19,
+      "author": "م. طارق — مدير تقني لشركة تقنية مالية (#4)",
+      "entity_type": "StartupCTO",
+      "cognitive_lens": "Claude-Analytical-Security",
+      "stance": "supportive",
+      "sentiment": 0.75,
+      "content_ar": "دمج الفحص الأمني الأبيض مع لوحة مقر الشركة ومحاكاة القرار يوفر علينا 4 اشتراكات منفصلة وتشتت الفريق."
+    },
+    {
+      "round": 6,
+      "sim_hour": "20:00",
+      "agent_id": 22,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#4)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.39,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 8,
+      "sim_hour": "00:00",
+      "agent_id": 2,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "supportive",
+      "sentiment": 0.28,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 8,
+      "sim_hour": "00:00",
+      "agent_id": 4,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.44,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 8,
+      "sim_hour": "00:00",
+      "agent_id": 10,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#2)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.53,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 8,
+      "sim_hour": "00:00",
+      "agent_id": 20,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#4)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "supportive",
+      "sentiment": 0.3,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 12,
+      "sim_hour": "08:00",
+      "agent_id": 4,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.42,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 12,
+      "sim_hour": "08:00",
+      "agent_id": 8,
+      "author": "د. سلمى — مديرة أمن معلومات في قطاع بنكي (#2)",
+      "entity_type": "EnterpriseCISO",
+      "cognitive_lens": "GPT-Strategic-Growth",
+      "stance": "supportive",
+      "sentiment": 0.38,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    },
+    {
+      "round": 12,
+      "sim_hour": "08:00",
+      "agent_id": 16,
+      "author": "م. زياد — باحث ومهندس تدقيق كود أبيض (#3)",
+      "entity_type": "AppSecEngineer",
+      "cognitive_lens": "Grok-Contrarian-Pulse",
+      "stance": "supportive",
+      "sentiment": 0.43,
+      "content_ar": "بعد الاطلاع على البرهان العملي (عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX ...)، وجود بوابة موافقة المالك وتقارير SARIF المفلترة يحل فعلاً مشكلة ضجيج الإنذارات الكاذبة."
+    }
+  ],
+  "god_view_injections": [
+    {
+      "round": 6,
+      "sim_hour": 20,
+      "event_ar": "عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >91% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)",
+      "trust_delta": 0.45
+    }
+  ],
+  "report": {
+    "title_ar": "تقرير التنبؤ الاستراتيجي للسرب (MiroFish-Arena96) — sim-80382a2a",
+    "initial_support_percent": 37.5,
+    "final_support_percent": 79.2,
+    "support_lift_percent": 41.7,
+    "final_avg_sentiment": 0.347,
+    "final_polarization_index": 0.433,
+    "historical_stance_shifts_count": 10,
+    "executive_summary_ar": "أظهرت محاكاة السرب المكونة من 24 وكيلاً مستقلاً عبر 12 جولة زمنية ارتفاع نسبة التأييد والتبني من 37.5% في الجولة الأولى إلى 79.2% في نهاية المحاكاة (+41.7%). وقد مثّلت المنتديات التقنية العميقة وبراهين التدقيق الأمني الموثق نقطة الارتكاز الحاسمة في إقناع فئتي EnterpriseCISO و AppSecEngineer.",
+    "key_risks_ar": [
+      "التسويق بعبارات ذكاء اصطناعي فضفاضة بدون إرفاق عينة فحص SARIF حقيقية يبقي فئة مديري الأمن في خانة التشكك.",
+      "غياب توضيح آلية «خانة ينتظرك» منذ اللحظة الأولى يثير مخاوف الشركات من الأتمتة المنفلتة."
+    ],
+    "preemptive_recommendations_ar": [
+      "إرفاق تقرير فحص أمني حي (صفر إيجابيات كاذبة) في الصفحة الرئيسية كبرهان فوري قبل طلب الاشتراك.",
+      "إبراز ميزة «المدير التنفيذي الواحد + بوابة موافقة المالك» كركيزة أمان نفسي وتشغيلي في كافة رسائل الإطلاق.",
+      "البدء بحملة محتوى تقني موثق على لينكدإن والمنتديات المتخصصة قبل تشغيل أي إعلانات مدفوعة."
+    ],
+    "panorama_stats": {
+      "nodes": 25,
+      "edges": 59,
+      "invalidated_edges": 11
+    }
+  },
+  "agent_log_path": "/home/user/arena96_os/data/simulations/sim-80382a2a/agent_log.jsonl"
+}

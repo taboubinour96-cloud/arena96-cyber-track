@@ -1,0 +1,298 @@
+{
+  "version": 20,
+  "company_name": "مقر شركة نور وأرينا 96 للذكاء السيبراني والتنبؤي",
+  "owner": "نور",
+  "ceo": "أرينا 96",
+  "timezone": "Africa/Tunis",
+  "updated_at_12h": "12:25 م",
+  "staff": [
+    {
+      "id": "ceo-arena96",
+      "name_ar": "أرينا 96 (المدير التنفيذي)",
+      "department": "الإدارة التنفيذية العليا",
+      "role_type": "CEO",
+      "status": "يشتغل",
+      "current_task": "إتمام الزمالة العليا (المراحل 1–10 كاملة — 40 وحدة و10 مختبرات)",
+      "xp": 1650,
+      "level": 10,
+      "title_ar": "أسطورة",
+      "next_level_xp": null,
+      "clean_deliveries": 6,
+      "jd_path": "team/README.md",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "cybersec-auditor",
+      "name_ar": "حارس — الأمن السيبراني والتدقيق",
+      "department": "الأمن السيبراني والتدقيق الأبيض",
+      "role_type": "DEPARTMENT",
+      "status": "فاضي",
+      "current_task": "مراقبة التحديثات الأسبوعية",
+      "xp": 550,
+      "level": 6,
+      "title_ar": "قائد",
+      "next_level_xp": 700,
+      "clean_deliveries": 8,
+      "jd_path": "team/jd/cybersec-auditor.md",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "research-trends",
+      "name_ar": "راصد — البحث والترندات",
+      "department": "البحث واستخبارات السوق",
+      "role_type": "DEPARTMENT",
+      "status": "فاضي",
+      "current_task": "متابعة ترندات الأمن والذكاء الاصطناعي",
+      "xp": 240,
+      "level": 4,
+      "title_ar": "متخصص",
+      "next_level_xp": 350,
+      "clean_deliveries": 4,
+      "jd_path": "team/jd/research-trends.md",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "marketing-growth",
+      "name_ar": "نماء — التسويق ومجلس الخبراء (53 مهارة)",
+      "department": "التسويق والنمو",
+      "role_type": "DEPARTMENT",
+      "status": "ينتظرك",
+      "current_task": "ينتظر قرار نور: [Meta Ads] طلب تنفيذ: budget",
+      "xp": 370,
+      "level": 5,
+      "title_ar": "أول",
+      "next_level_xp": 500,
+      "clean_deliveries": 6,
+      "jd_path": "team/jd/marketing-growth.md",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "connectors-automation",
+      "name_ar": "رابط — بوابة الـ 20 موصلاً والأتمتة",
+      "department": "الموصلات والأتمتة السحابية",
+      "role_type": "DEPARTMENT",
+      "status": "فاضي",
+      "current_task": "مزامنة Google Drive التلقائية",
+      "xp": 380,
+      "level": 5,
+      "title_ar": "أول",
+      "next_level_xp": 500,
+      "clean_deliveries": 7,
+      "jd_path": "team/jd/connectors-automation.md",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "mirofish-swarm",
+      "name_ar": "عراف السرب — محرك التنبؤ MiroFish",
+      "department": "محاكاة السرب والتنبؤ الاستراتيجي",
+      "role_type": "DEPARTMENT",
+      "status": "فاضي",
+      "current_task": "جاهز لمحاكاة أي سيناريو جديد يطلبه نور",
+      "xp": 390,
+      "level": 5,
+      "title_ar": "أول",
+      "next_level_xp": 500,
+      "clean_deliveries": 6,
+      "jd_path": "team/jd/mirofish-swarm.md",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "content-publisher",
+      "name_ar": "بيان — الكتابة والإخراج المشروط",
+      "department": "التوثيق والإخراج والنشر",
+      "role_type": "DEPARTMENT",
+      "status": "ينتظرك",
+      "current_task": "ينتظر قرار نور: [Slack] طلب تنفيذ: publish",
+      "xp": 260,
+      "level": 4,
+      "title_ar": "متخصص",
+      "next_level_xp": 350,
+      "clean_deliveries": 5,
+      "jd_path": "team/jd/content-publisher.md",
+      "updated_at_12h": "10:00 ص"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk-3f034458",
+      "title_ar": "تشغيل محاكاة السرب MiroFish (24 وكيلاً × 12 جولة) لاختبار خطة الإطلاق",
+      "department_id": "mirofish-swarm",
+      "stage": "مكتملة",
+      "created_at_12h": "10:00 ص",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "tsk-cd4e2fca",
+      "title_ar": "تفعيل بوابة الـ 20 موصلاً وتصدير ملف مؤشرات Excel وفحص جدار موافقة نور",
+      "department_id": "connectors-automation",
+      "stage": "مكتملة",
+      "created_at_12h": "10:00 ص",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "tsk-616e6808",
+      "title_ar": "تشغيل مكتبة 53 مهارة تسويق وعقد مجلس الخبراء لإطلاق المنظومة",
+      "department_id": "marketing-growth",
+      "stage": "تنتظر موافقتك",
+      "created_at_12h": "10:00 ص",
+      "updated_at_12h": "10:00 ص"
+    },
+    {
+      "id": "tsk-3b57dd12",
+      "title_ar": "فحص حزمة marketingskills و MiroFish عبر cybersec_branch",
+      "department_id": "cybersec-auditor",
+      "stage": "مكتملة",
+      "created_at_12h": "10:00 ص",
+      "updated_at_12h": "10:00 ص"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-00adf0ab",
+      "type": "report",
+      "actor_id": "mirofish-swarm",
+      "summary_ar": "تقرير خماسي إلى المدير التنفيذي: إتمام محاكاة السرب (sim-79836165) لـ 24 وكيلاً: ارتفع التأييد من 37.5% إلى 70.8% (+33.3%).",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-fc8a5ffb",
+      "type": "status_change",
+      "actor_id": "mirofish-swarm",
+      "summary_ar": "تحديث حالة «mirofish-swarm» إلى «يشتغل» — محاكاة تفاعل السوق وحقن متغير (ماذا لو)",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-c0b18542",
+      "type": "report",
+      "actor_id": "connectors-automation",
+      "summary_ar": "تقرير خماسي إلى المدير التنفيذي: تجهيز بوابة الـ 20 موصلاً، تصدير جدول المؤشرات بصيغة Excel، وتحويل طلبات النشر والميزانية تلقائياً إلى خانة «ينتظرك».",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-2eefca6a",
+      "type": "owner_gate",
+      "actor_id": "content-publisher",
+      "summary_ar": "رفع طلب إلى خانة «ينتظرك» لموافقة نور: [Slack] طلب تنفيذ: publish",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-73d28659",
+      "type": "owner_gate",
+      "actor_id": "marketing-growth",
+      "summary_ar": "رفع طلب إلى خانة «ينتظرك» لموافقة نور: [Meta Ads] طلب تنفيذ: budget",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-46624d56",
+      "type": "status_change",
+      "actor_id": "connectors-automation",
+      "summary_ar": "تحديث حالة «connectors-automation» إلى «يشتغل» — تصدير مؤشرات Excel وفحص بوابة الموصلات",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-c2dc1ce0",
+      "type": "report",
+      "actor_id": "marketing-growth",
+      "summary_ar": "تقرير خماسي إلى المدير التنفيذي: تفعيل 53 مهارة و66 أداة CLI، وإصدار توصية مجلس التسويق بمشاركة المعارض الإلزامي.",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-aed46f6a",
+      "type": "status_change",
+      "actor_id": "marketing-growth",
+      "summary_ar": "تحديث حالة «marketing-growth» إلى «يشتغل» — جلسة مجلس خبراء التسويق (Marketing Council)",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-90b1b948",
+      "type": "report",
+      "actor_id": "cybersec-auditor",
+      "summary_ar": "تقرير خماسي إلى المدير التنفيذي: فحص 189 ملفاً في marketingskills (0 ثغرات) وكشف 26 مساراً غير محمي (CWE-862) في MiroFish الخام وتحصينها برمجياً في نسختنا.",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-9e3577c5",
+      "type": "status_change",
+      "actor_id": "cybersec-auditor",
+      "summary_ar": "تحديث حالة «cybersec-auditor» إلى «يشتغل» — تدقيق الأكواد الخارجية قبل التشغيل",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "evt-2933c30e",
+      "type": "boot",
+      "actor_id": "ceo-arena96",
+      "summary_ar": "تأسيس مقر الشركة وتفعيل الأقسام الخلفية الستة وبروتوكول اللوحة الحيّة.",
+      "time_12h": "10:00 ص"
+    }
+  ],
+  "needs": [
+    {
+      "id": "need-1b1e6dea",
+      "department_id": "content-publisher",
+      "action_category": "publish",
+      "title_ar": "[Slack] طلب تنفيذ: publish",
+      "details_ar": "نشر البيان التعريفي الرسمي لمنظومة أرينا 96 وتقرير البرهان الأمني للجمهور المستهدف.",
+      "artifact_path": "",
+      "status": "ينتظر قرار نور",
+      "owner_quote": null,
+      "created_at_12h": "10:00 ص"
+    },
+    {
+      "id": "need-1a0a7018",
+      "department_id": "marketing-growth",
+      "action_category": "spend_budget",
+      "title_ar": "[Meta Ads] طلب تنفيذ: budget",
+      "details_ar": "مسودة حملة اختبارية لإطلاق منظومة أرينا 96 (صرف مقترح $0 حالياً — بانتظار قرار نور لتحديد الميزانية أو الاكتفاء بالنمو العضوي).",
+      "artifact_path": "",
+      "status": "ينتظر قرار نور",
+      "owner_quote": null,
+      "created_at_12h": "10:00 ص"
+    }
+  ],
+  "recent_reports": [
+    {
+      "id": "rep-cc41f85a",
+      "department_id": "mirofish-swarm",
+      "done": "إتمام محاكاة السرب (sim-79836165) لـ 24 وكيلاً: ارتفع التأييد من 37.5% إلى 70.8% (+33.3%).",
+      "files_or_links": "/home/user/arena96_os/data/simulations/sim-79836165/agent_log.jsonl",
+      "needs_owner": "لا شيء",
+      "blocked": "لا شيء",
+      "next_step": "جاهز لمحاكاة أي سيناريو جديد يطلبه نور",
+      "formatted_5line": "تم: إتمام محاكاة السرب (sim-79836165) لـ 24 وكيلاً: ارتفع التأييد من 37.5% إلى 70.8% (+33.3%).\nالملفات / الروابط: /home/user/arena96_os/data/simulations/sim-79836165/agent_log.jsonl\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: جاهز لمحاكاة أي سيناريو جديد يطلبه نور",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "rep-f7142449",
+      "department_id": "connectors-automation",
+      "done": "تجهيز بوابة الـ 20 موصلاً، تصدير جدول المؤشرات بصيغة Excel، وتحويل طلبات النشر والميزانية تلقائياً إلى خانة «ينتظرك».",
+      "files_or_links": "/home/user/arena96_os/data/تقرير_مؤشرات_الشركة_أرينا_96.xlsx",
+      "needs_owner": "لا شيء",
+      "blocked": "لا شيء",
+      "next_step": "مزامنة Google Drive التلقائية",
+      "formatted_5line": "تم: تجهيز بوابة الـ 20 موصلاً، تصدير جدول المؤشرات بصيغة Excel، وتحويل طلبات النشر والميزانية تلقائياً إلى خانة «ينتظرك».\nالملفات / الروابط: /home/user/arena96_os/data/تقرير_مؤشرات_الشركة_أرينا_96.xlsx\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مزامنة Google Drive التلقائية",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "rep-a77ed4ef",
+      "department_id": "marketing-growth",
+      "done": "تفعيل 53 مهارة و66 أداة CLI، وإصدار توصية مجلس التسويق بمشاركة المعارض الإلزامي.",
+      "files_or_links": "/home/user/arena96_os/data/marketing_council_launch_verdict.json",
+      "needs_owner": "اعتماد هيكل الباقات الثلاث ومسودة حملة الإطلاق قبل أي نشر خارجي",
+      "blocked": "لا شيء",
+      "next_step": "تسليم فرضية الإطلاق لمحاكي السرب MiroFish",
+      "formatted_5line": "تم: تفعيل 53 مهارة و66 أداة CLI، وإصدار توصية مجلس التسويق بمشاركة المعارض الإلزامي.\nالملفات / الروابط: /home/user/arena96_os/data/marketing_council_launch_verdict.json\nيحتاج المالك: اعتماد هيكل الباقات الثلاث ومسودة حملة الإطلاق قبل أي نشر خارجي\nمتوقف: لا شيء\nالتالي: تسليم فرضية الإطلاق لمحاكي السرب MiroFish",
+      "time_12h": "10:00 ص"
+    },
+    {
+      "id": "rep-df6fe00f",
+      "department_id": "cybersec-auditor",
+      "done": "فحص 189 ملفاً في marketingskills (0 ثغرات) وكشف 26 مساراً غير محمي (CWE-862) في MiroFish الخام وتحصينها برمجياً في نسختنا.",
+      "files_or_links": "/home/user/security_audits/marketingskills_audit/audit_report.md , /home/user/security_audits/mirofish_audit/audit_report.md",
+      "needs_owner": "لا شيء",
+      "blocked": "لا شيء",
+      "next_step": "مراقبة التحديثات الأسبوعية",
+      "formatted_5line": "تم: فحص 189 ملفاً في marketingskills (0 ثغرات) وكشف 26 مساراً غير محمي (CWE-862) في MiroFish الخام وتحصينها برمجياً في نسختنا.\nالملفات / الروابط: /home/user/security_audits/marketingskills_audit/audit_report.md , /home/user/security_audits/mirofish_audit/audit_report.md\nيحتاج المالك: لا شيء\nمتوقف: لا شيء\nالتالي: مراقبة التحديثات الأسبوعية",
+      "time_12h": "10:00 ص"
+    }
+  ]
+}

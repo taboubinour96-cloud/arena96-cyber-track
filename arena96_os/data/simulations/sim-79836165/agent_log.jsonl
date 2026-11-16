@@ -1,0 +1,5 @@
+{"timestamp": "2026-11-04T09:00:40.955946+00:00", "simulation_id": "sim-79836165", "action": "init_world", "stage": "graph_and_personas", "details": {"nodes": 25, "agents": 24}}
+{"timestamp": "2026-11-04T09:00:40.956273+00:00", "simulation_id": "sim-79836165", "action": "god_view_injection", "stage": "simulation", "details": {"round": 6, "event_ar": "نشر برهان فحص أمني أبيض حي (SARIF) بصفر إيجابيات كاذبة + إتاحة لوحة «ينتظرك» للتجربة الفورية"}}
+{"timestamp": "2026-11-04T09:00:40.956584+00:00", "simulation_id": "sim-79836165", "action": "tool_call", "stage": "report_react", "details": {"tool": "InsightForge", "subqueries": 4}}
+{"timestamp": "2026-11-04T09:00:40.956615+00:00", "simulation_id": "sim-79836165", "action": "tool_call", "stage": "report_react", "details": {"tool": "PanoramaSearch", "historical_shifts": 8}}
+{"timestamp": "2026-11-04T09:00:40.956642+00:00", "simulation_id": "sim-79836165", "action": "report_complete", "stage": "completed", "details": {"final_support_percent": 70.8}}

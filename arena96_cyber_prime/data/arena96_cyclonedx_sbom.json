@@ -1,0 +1,346 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2e09fe8f-b54f-464b-ae8f-27aacf073ad6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-04T09:30:26.261044+00:00",
+    "component": {
+      "type": "application",
+      "name": "Arena96-Cyber-And-Swarm-Suite",
+      "version": "2.0.0",
+      "authors": [
+        {
+          "name": "نور & أرينا 96"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/__init__.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "__init__.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "692998f560f85fc3045d6a4b4e0f47ab5a2364999999f17485e1f5ade4cc877f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/agent_branch.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "agent_branch.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f4f64440a9f4b470df4f765ab386fed94865bb1483ae811c55a7f295708eec15"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/ast_sast_engine.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "ast_sast_engine.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b46a2bba431d5292c4f9df88b463b564ec7f271293f1e0c8ecf9b91bb628a54d"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/cli.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "cli.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6e85ed46152bcbab059db1ad88447522e27efeac8c7467b0474db744857fc1de"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/config_iac_auditor.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "config_iac_auditor.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "02f780a5df844f47f32fe981f8aee71b28aeef10fd67c7f84c16bcfc524ce8c8"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/context_triage.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "context_triage.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3c4e60eb86d8e335d8c99a1c6f9f9551ac88a5b3c9bade6678fbf65cf141113f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/cvss_calculator.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "cvss_calculator.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "da5e2c111d04dff278552fac0bcfdb67772357db17cad40adb4f42fc2c3e6553"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/dependency_osv_auditor.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "dependency_osv_auditor.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4dd733f6f95aad9ce7742c5fd67ebef478584dbb313b0ead737f542b84548c08"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/models.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "models.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "37a9f79c3b1cb9752febd3ef90b95ff36439989f2956958346abb4276dc54d7e"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/report_builder.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "report_builder.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "258d72735492d4c943fca006073a795144667b5a76c8d1d4840b2c0ff1a51466"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/route_authz_mapper.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "route_authz_mapper.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3d60fcc42d39a00dfd3230b08592e52a215cd39998d16bea3913baf5ce1fde1a"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/cybersec_branch/scope_guard.py@2.0.0",
+      "group": "cybersec_branch",
+      "name": "scope_guard.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aad9fcd34cf9f29f565f533999a3e23956ee7bada0d93ef3067e59990dceb072"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/__init__.py@2.0.0",
+      "group": "arena96_os",
+      "name": "__init__.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3c5c8fe42c5a54e0c1391a8d40d2762e4641a41e38576c966e11cc286a9ed4bd"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/hq_server.py@2.0.0",
+      "group": "arena96_os",
+      "name": "hq_server.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5d66a84af40610b0e53ce5c3fe9c4d0beafff076f856c586d73e649735d5fc41"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/layer1_marketing_engine.py@2.0.0",
+      "group": "arena96_os",
+      "name": "layer1_marketing_engine.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cda92dc6173ff39132823064b0a26ac5bcceb0e6bc9ab8a88768a00ae1869579"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/layer2_company_hq.py@2.0.0",
+      "group": "arena96_os",
+      "name": "layer2_company_hq.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0012bfafcb869ac0b813b953fd8024c1e2fcbefa62f6f6996cc3d6572c7a63c2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/layer3_connectors_hub.py@2.0.0",
+      "group": "arena96_os",
+      "name": "layer3_connectors_hub.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e0557c34e029351fd72840f440bf2a08c9ac8b3e513239a8191a74075dc70eb7"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/layer4_mirofish_swarm.py@2.0.0",
+      "group": "arena96_os",
+      "name": "layer4_mirofish_swarm.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "65156e91659b89f4b1e79c1b68875ee5acd19ab845e707989b145e6b7da49f02"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_os/orchestrator.py@2.0.0",
+      "group": "arena96_os",
+      "name": "orchestrator.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "df2c2ed4329cf60d2daf8f96d90bbe4da17d496e706ad8ac2e87d87bdfbc929b"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_cyber_prime/__init__.py@2.0.0",
+      "group": "arena96_cyber_prime",
+      "name": "__init__.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3b19c1783cd8b6938a7c891a4b849826d97b908d1cef04a5f61260acbf3eef7f"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_cyber_prime/cyber_pillar1_skills_council.py@2.0.0",
+      "group": "arena96_cyber_prime",
+      "name": "cyber_pillar1_skills_council.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "be6599d7e3956ecc8546bf24ed679c4fe25e8ebddccc5ddff7dc78fc4feb8d8d"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_cyber_prime/cyber_pillar2_soc_hq.py@2.0.0",
+      "group": "arena96_cyber_prime",
+      "name": "cyber_pillar2_soc_hq.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce75571f1a3d8ce87076d4a8d0e04bdcb64e04d6593e5295d2df7a308948b833"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_cyber_prime/cyber_pillar3_secops_connectors.py@2.0.0",
+      "group": "arena96_cyber_prime",
+      "name": "cyber_pillar3_secops_connectors.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "478f6931153b73e66ad59d0a760cfbd4bdd316fba1c75111fc7d69da7a1db1e0"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_cyber_prime/cyber_pillar4_cyberswarm_twin.py@2.0.0",
+      "group": "arena96_cyber_prime",
+      "name": "cyber_pillar4_cyberswarm_twin.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7d551c9df0db6fb376441244b562f0a0f3842ed85027a79e55383a23ca083ee6"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:arena96/arena96_cyber_prime/reanalysis_orchestrator.py@2.0.0",
+      "group": "arena96_cyber_prime",
+      "name": "reanalysis_orchestrator.py",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7f4d5dc8dc4d6566ddae772b37dfa7e0cd870dde7f09fb1925b5ff52bdeff2da"
+        }
+      ]
+    }
+  ]
+}

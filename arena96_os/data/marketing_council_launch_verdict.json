@@ -1,0 +1,61 @@
+{
+  "simulation_disclaimer_ar": "محاكاة استشارية مبنية على الأطر المنشورة لخبراء التسويق داخل مكتبة marketingskills وليست تصريحات شخصية مباشرة.",
+  "question": "كيف نطلق منظومة أرينا 96 (التدقيق السيبراني + مقر الشركة الذكي + محاكي السرب MiroFish) بأعلى ثقة وأقل تكلفة استحواذ؟",
+  "question_type": "launch",
+  "stakes": "إطلاق منظومة أرينا 96 وبناء الثقة المؤسسية بدون هدر إعلاني",
+  "product_context_used": true,
+  "seated_advisors": [
+    {
+      "seat_number": 1,
+      "advisor_id": "april-dunford",
+      "advisor_name": "April Dunford",
+      "title_ar": "أبريل دانفورد — التموضع التنافسي الواضح مقابل البدائل الحقيقية",
+      "role_in_council": "مستشار أساسي",
+      "is_dissenter": false,
+      "dossier_verified_on_disk": true,
+      "dossier_grounding_excerpt": "**Lens:** Positioning is deliberately choosing the market context that makes your product's unique value obvious to the customers best equipped to appreciate it — and most companies default into their positioning by acci",
+      "recommendation_ar": "لا تسوّق المنظومة كأداة ذكاء اصطناعي عامة؛ موضِعها كـ «غرفة عمليات تنفيذية محمية سيبرانياً» في مقابل بديل الفوضى الحالية (تشغيل 6 جلسات منفصلة وأدوات فحص مليئة بالإنذارات الكاذبة)."
+    },
+    {
+      "seat_number": 2,
+      "advisor_id": "alex-hormozi",
+      "advisor_name": "Alex Hormozi",
+      "title_ar": "أليكس هورموزي — معادلة القيمة والعرض الذي يستحيل رفضه",
+      "role_in_council": "مستشار أساسي",
+      "is_dissenter": false,
+      "dossier_verified_on_disk": true,
+      "dossier_grounding_excerpt": "**Lens:** Marketing problems are math problems — value delivered vs. friction imposed, inputs vs. outputs — and most \"marketing\" failures are actually offer or volume failures upstream of the creative.",
+      "recommendation_ar": "قدّم عرض إطلاق لا يُرفض: فحص أمني أبيض فوري لمستودع العميل + محاكاة سرب مجانية لقراره القادم خلال 10 دقائق بلا إعدادات معقدة، مع ربط الباقة الأعلى بتوفير ساعات الفريق."
+    },
+    {
+      "seat_number": 3,
+      "advisor_id": "seth-godin",
+      "advisor_name": "Seth Godin",
+      "title_ar": "سيث غودين — التفرّد وأصغر جمهور قابل للحياة والتسويق بالإذن",
+      "role_in_council": "مستشار أساسي",
+      "is_dissenter": false,
+      "dossier_verified_on_disk": true,
+      "dossier_grounding_excerpt": "**Lens:** Marketing is the generous act of helping someone become who they want to be — done by earning attention and trust from the smallest group that matters, never by stealing attention at scale.",
+      "recommendation_ar": "ابدأ بأصغر جمهور متعطش ومؤثر: 100 مؤسس تقني ومدير أمن برمجيات في المنطقة العربية، وابنِ معهم ثقة عميقة عبر تقارير فحص حقيقية موثقة بدلاً من الإعلانات الباردة."
+    },
+    {
+      "seat_number": 4,
+      "advisor_id": "byron-sharp",
+      "advisor_name": "Byron Sharp",
+      "title_ar": "بايرون شارب — التوافر الذهني والمادي والوصول الواسع (المعارض الطبيعي)",
+      "role_in_council": "معارض استراتيجي إلزامي (Natural Dissenter)",
+      "is_dissenter": true,
+      "dossier_verified_on_disk": true,
+      "dossier_grounding_excerpt": "**Lens:** Marketing should be an evidence-based science governed by empirical, law-like patterns that replicate across categories and decades — and much of what marketers believe about loyalty, differentiation, and targe",
+      "recommendation_ar": "اعتراض منهجي: التركيز المفرط على شريحة ضيقة جداً قد يحدّ من التوافر الذهني؛ يجب بناء هوية بصرية وعبارة واضحة يفهمها أي صاحب شركة فوراً حتى لو لم يكن خبيراً أمنياً."
+    }
+  ],
+  "key_tension_ar": "التوتر الجوهري بين التخصص العميق لفرق الأمن والتطوير (أبريل دانفورد وسيث غودين) وبين توسيع التوافر الذهني لرواد الأعمال غير التقنيين (بايرون شارب).",
+  "unified_verdict_ar": "الانطلاق برسالة مزدوجة الطبقات: واجهة تنفيذية فائقة البساطة للمالك («مدير تنفيذي واحد وخانة ينتظرك تحميك»)، مدعومة في العمق ببرهان هندسي مجاني (تقرير تدقيق كود أبيض + محاكاة قرار عبر MiroFish) لرفع التحويل بلا إنفاق إعلاني متسرع.",
+  "next_skill_handoffs": [
+    "positioning",
+    "pricing",
+    "launch",
+    "ai-seo"
+  ]
+}

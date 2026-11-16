@@ -1,0 +1,5 @@
+{"timestamp": "2026-11-04T09:29:59.044703+00:00", "simulation_id": "sim-0c2a91a6", "action": "init_world", "stage": "graph_and_personas", "details": {"nodes": 25, "agents": 24}}
+{"timestamp": "2026-11-04T09:29:59.044949+00:00", "simulation_id": "sim-0c2a91a6", "action": "god_view_injection", "stage": "simulation", "details": {"round": 5, "event_ar": "عرض نتائج التوأم الرقمي CyberSwarm-96 (مرونة دفاعية >92% + شهادة CycloneDX SBOM وسلسلة تجزئة SHA-256)"}}
+{"timestamp": "2026-11-04T09:29:59.045415+00:00", "simulation_id": "sim-0c2a91a6", "action": "tool_call", "stage": "report_react", "details": {"tool": "InsightForge", "subqueries": 4}}
+{"timestamp": "2026-11-04T09:29:59.045468+00:00", "simulation_id": "sim-0c2a91a6", "action": "tool_call", "stage": "report_react", "details": {"tool": "PanoramaSearch", "historical_shifts": 9}}
+{"timestamp": "2026-11-04T09:29:59.045499+00:00", "simulation_id": "sim-0c2a91a6", "action": "report_complete", "stage": "completed", "details": {"final_support_percent": 66.7}}
